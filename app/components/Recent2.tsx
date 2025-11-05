@@ -14,7 +14,7 @@ const Recent2 = () => {
       title: "Peakwise Financials",
       id: 2,
       link: "/images/peakwise.png",
-      projectLink: "#",
+      projectLink: "/peakwise",
     },
     {
       title: "Lookali (Local freelance app)",

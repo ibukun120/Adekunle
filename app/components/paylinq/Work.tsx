@@ -59,7 +59,7 @@ export default function Work() {
               <div
                 key={step.id}
                 className={`flex items-center gap-2 text-white px-4 py-3 rounded shadow-md justify-center ${step.color} w-60`}
-                style={{ marginLeft: `${index * 244}px` }} // creates the diagonal stagger
+                style={{ marginLeft: `${index * 244}px` }}
               >
                 {/* <span>{step.icon}</span> */}
                 <Image src={step.imgLink} width={20} height={20} alt={step.label}/>
