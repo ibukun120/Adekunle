@@ -8,7 +8,7 @@ const RecentProjects = () => {
       title: "SapphireCredit",
       id: 1,
       link: "/images/Background1.png",
-      projectLink: "#",
+      projectLink: "/sapphire",
     },
     {
       title: "Now Rent Easy Property Mgt",
