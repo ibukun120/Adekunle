@@ -54,7 +54,7 @@ export default function Work() {
           </h2>
 
           {/* lookout */}
-          <div className="hidden md:flex flex-col gap-3 items-start mt-10">
+          <div className="hidden md:flex flex-col gap-3 items-start mt-10 overflow-x-scroll">
             {processSteps.map((step, index) => (
               <div
                 key={step.id}

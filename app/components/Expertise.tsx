@@ -69,7 +69,7 @@ const Expertise = () => {
         {areas.map((area) => (
           <div
             key={area.id}
-            className={`p-8 text-white ${area.bg} hover:scale-105 transition-transform duration-300 border ${area.border}`}
+            className={`p-8 text-white ${area.bg} border ${area.border}`}
           >
             <div className="mb-12">{area.icon}</div>
             <h3 className="text-xl font-semibold mb-3">{area.title}</h3>

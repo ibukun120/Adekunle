@@ -33,7 +33,7 @@ const Recent2 = () => {
               key={item.id}
               className="flex flex-col items-center text-center"
             >
-              <div className="w-full h-64 relative">
+              <div className="w-full h-64 relative hover:scale-105 transition-transform duration-300">
                 <Link href={item.projectLink}>
                   <Image
                     src={item.link}
