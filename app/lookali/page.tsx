@@ -7,6 +7,7 @@ import Graph from '../components/lookali/Graph'
 import UserFlow from '../components/lookali/UserFlow'
 import Sketch from '../components/lookali/Sketch'
 import WireFrame1 from '../components/lookali/WireFrame1'
+import WireFrame2 from '../components/lookali/WireFrame2'
 
 const page = () => {
   return (
@@ -19,6 +20,7 @@ const page = () => {
       <UserFlow/>
       <Sketch/>
       <WireFrame1/>
+      <WireFrame2/>
     </div>
   )
 }
