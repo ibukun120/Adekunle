@@ -6,7 +6,7 @@ const StyleGuide = () => {
       <h1 className="text-3xl font-bold text-green-600 mb-8">Style Guide</h1>
       <p className="text-xl font-semibold">Font</p>
       <div className="flex justify-between">
-        <div className="text-7xl">OUTFIT</div>
+        <div className="text-2xl md:text-4xl lg:text-7xl">OUTFIT</div>
 
         <div className="tracking-widest leading-6">
           <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
