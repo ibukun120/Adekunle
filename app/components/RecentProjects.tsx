@@ -14,7 +14,7 @@ const RecentProjects = () => {
       title: "Now Rent Easy Property Mgt",
       id: 2,
       link: "/images/Background2.png",
-      projectLink: "#",
+      projectLink: "/Renteasy",
     },
     {
       title: "FarmHive",
