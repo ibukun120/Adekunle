@@ -8,6 +8,7 @@ import UserFlow from '../components/lookali/UserFlow'
 import Sketch from '../components/lookali/Sketch'
 import WireFrame1 from '../components/lookali/WireFrame1'
 import WireFrame2 from '../components/lookali/WireFrame2'
+import StyleGuide from '../components/lookali/StyleGuide'
 
 const page = () => {
   return (
@@ -18,6 +19,7 @@ const page = () => {
       <Graph/>
       <User/>
       <UserFlow/>
+      <StyleGuide/>
       <Sketch/>
       <WireFrame1/>
       <WireFrame2/>
