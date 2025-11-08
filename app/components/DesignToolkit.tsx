@@ -81,7 +81,7 @@ const tools: Tool[] = [
 export default function DesignToolkit() {
   return (
     <>
-      <div className=" bg-gradient-to-br from-gray-50 to-gray-100 py-12 px-4  md:px-12 lg:px-24">
+      <div className=" bg-white py-12 px-4  md:px-12 lg:px-24">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-4xl font-bold text-gray-900 mb-12">
             My Design Toolkit

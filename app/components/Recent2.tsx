@@ -20,7 +20,7 @@ const Recent2 = () => {
       title: "Lookali (Local freelance app)",
       id: 3,
       link: "/images/lookali.png",
-      projectLink: "#",
+      projectLink: "/lookali",
     },
   ];
   return (

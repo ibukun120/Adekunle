@@ -12,11 +12,11 @@ const Nav = () => {
       {/* Logo */}
       <div>
         <Image
-          src="/images/navimage.png"
+          src="/images/navimage2.png"
           width={130}
           height={100}
           alt="nav-logo"
-          className="w-8 h-8 md:w-12 md:h-12 bg-black"
+          className="w-8 h-8 md:w-12 md:h-12"
         />
       </div>
 

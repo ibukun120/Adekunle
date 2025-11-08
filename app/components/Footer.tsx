@@ -4,7 +4,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <div className="w-full">
-      <div className="bg-[linear-gradient(to_right,_#020037,_#05009D,_#020037)] py-16 flex items-center justify-center flex-col text-center gap-6">
+      <div className="bg-linear-to-r from-[#020037] via-[#05009D] to-[#020037] py-16 flex items-center justify-center flex-col text-center gap-6">
         <div>
           <p className="text-3xl">Great ideas need great designs.</p>
           <p className="text-3xl">Ready to create yours?</p>
@@ -21,11 +21,11 @@ const Footer = () => {
         <div className="flex justify-center items-center md:justify-between flex-col md:flex-row gap-6 md:gap-0">
           <div className="flex gap-2 text-black">
             <Image
-              src="/images/navimage.png"
+              src="/images/navimage2.png"
               width={130}
               height={100}
               alt="nav-logo"
-              className="w-5 h-5 bg-black"
+              className="w-5 h-5"
             />
             <p>Adekunle Adebona</p>
           </div>
