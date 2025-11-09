@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Pics = () => {
   return (
-    <div className=" bg-white py-10 px-4 md:px-12 lg:px-24">
+    <div className=" bg-white py-10 px-4 md:px-12 lg:px-24 xl:px-32">
       <div className="">
         <div className="flex justify-between flex-col md:flex-row gap-2">
           <div className="w-full md:w-1/2 bg-[#ED2939] flex justify-center items-center">

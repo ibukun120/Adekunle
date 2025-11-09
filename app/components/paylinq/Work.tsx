@@ -105,7 +105,7 @@ export default function Work() {
           <div className="">
             {/* Font Section */}
             <div className="">
-              <h3 className="text-xl text-gray-800">Font</h3>
+              <h3 className="text-xl text-gray-800 mb-3">Font</h3>
               <div className="space-x-4 flex flex-col md:flex-row w-full gap-4">
                 <div className="w-full md:w-1/2">
                   <h1 className="text-5xl md:text-6xl font-bold text-teal-600 ">
@@ -113,7 +113,7 @@ export default function Work() {
                   </h1>
                 </div>
                 <div className="space-y-2 text-black text-2xl w-full md:w-1/2">
-                  <p className="text-lg tracking-widest leading-4">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+                  <p className="text-lg tracking-wide md:tracking-widest leading-4">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
                   <p className="text-lg tracking-widest">abcdefghijklmnopqrstuvwxyz</p>
                   <p className="text-black text-xl md:text-2xl">
                     <span className="text-black font-extrabold">
@@ -128,7 +128,7 @@ export default function Work() {
 
             {/* Colors Section */}
             <div className="">
-              <h3 className="text-xl text-gray-800">Colours</h3>
+              <h3 className="text-xl text-gray-800 mt-3 mb-2">Colours</h3>
               <div className="flex flex-col sm:flex-row">
                 <div className="w-full md:w-1/2">
                   <div className="bg-[#008080] flex flex-col gap-8 justify-center py-10 px-8 text-white">

@@ -2,7 +2,7 @@ import React from "react";
 
 const Brands = () => {
   return (
-    <div className="bg-white text-black px-6 md:px-12 lg:px-32 py-12">
+    <div className="bg-white text-black px-6 md:px-12 lg:px-24 xl:px-32 py-12">
       <h1 className="text-center text-[#ED2939] text-2xl font-semibold mt-6">
         Our Brand Type
       </h1>

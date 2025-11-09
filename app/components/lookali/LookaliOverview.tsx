@@ -11,7 +11,7 @@ const LookaliOverview = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white px-6 md:px-24 py-16 text-gray-800 leading-relaxed">
+    <div className=" bg-white px-6 md:px-24 py-16 text-gray-800 leading-relaxed">
       {/* Brief Description */}
       <section className="mb-8">
         <h2 className="text-lg font-semibold text-green-600 mb-2">
@@ -71,29 +71,29 @@ const LookaliOverview = () => {
         </h2>
 
         
-          <div className="flex flex-col md:flex-row gap-3 items-center justify-between bg-white mb-12">
-            <div className="flex flex-row gap-2 items-center justify-center">
+          <div className="flex flex-col md:flex-row gap-3 md:items-center md:justify-between bg-white mb-12">
+            <div className="flex flex-row gap-2 items-center md:justify-center">
               <div className="bg-[#009933] text-white rounded-lg p-2">
                 <Search size={20} />
               </div>
               <p className="font-semibold text-black">Research</p>
             </div>
 
-            <div className="flex flex-row gap-2 items-center justify-center">
+            <div className="flex flex-row gap-2 items-center md:justify-center">
               <div className="bg-[#009933] text-white rounded-lg p-2">
                 <Image src='/images/lookali/icion1.png' alt="icion1" width={20} height={15}/>
               </div>
               <p className="font-semibold text-black">Ideate</p>
             </div>
 
-            <div className="flex flex-row gap-2 items-center justify-center">
+            <div className="flex flex-row gap-2 items-center md:justify-center">
               <div className="bg-[#009933] text-white rounded-lg p-2">
                 <Image src='/images/lookali/icion2.png' alt="icion2" width={20} height={15}/>
               </div>
               <p className="font-semibold text-black">Visual Design</p>
             </div>
 
-            <div className="flex flex-row gap-2 items-center justify-center">
+            <div className="flex flex-row gap-2 items-center md:justify-center">
               <div className="bg-[#009933] text-white rounded-lg p-2">
                 <Image src='/images/lookali/icion3.png' alt="icion3" width={20} height={15}/>
               </div>

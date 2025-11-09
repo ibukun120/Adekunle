@@ -5,16 +5,16 @@ const StyleGuide = () => {
     <div className="bg-white px-6 md:px-16 lg:px-24 py-16 text-black">
       <h1 className="text-3xl font-bold text-green-600 mb-8">Style Guide</h1>
       <p className="text-xl font-semibold">Font</p>
-      <div className="flex justify-between flex-col gap-6">
+      <div className="flex justify-between flex-col md:flex-row gap-6 mb-6">
         <div className="text-4xl lg:text-7xl mt-4 md:mt-0">OUTFIT</div>
 
         <div className="tracking-widest leading-6">
           <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
           <p>abcdefghijklmnopqrstvwxyz</p>
-          <div className="flex gap-6">
+          <div className="flex gap-6 mt-3">
             <span className="font-bold text-xl">OUTFIT</span>
             <span className="font-semibold">OUTFIT</span>
-            <span>OUTFIT</span>
+            <span className="text-sm">OUTFIT</span>
           </div>
         </div>
       </div>
@@ -26,17 +26,17 @@ const StyleGuide = () => {
           <div className="bg-[#009933] h-24"></div>
           <p>009933</p>
         </div>
-        {/* black */}
+        {/* black 1 */}
         <div className="flex flex-col w-1/5 gap-4">
           <div className="bg-[#000000] h-24"></div>
           <p>000000</p>
         </div>
-        {/* black */}
+        {/* black 2 */}
         <div className="flex flex-col w-1/5 gap-4">
           <div className="bg-[#696969] h-24"></div>
           <p>696969</p>
         </div>
-        {/* black */}
+        {/* black 3 */}
         <div className="flex flex-col w-1/5 gap-4">
           <div className="bg-[#AFB1B6] h-24"></div>
           <p>AFB1B6</p>

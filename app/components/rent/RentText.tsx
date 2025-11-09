@@ -2,7 +2,7 @@ import React from "react";
 
 const RentText = () => {
   return (
-    <div className="bg-white text-black px-6 md:px-12 lg:px-32 py-12 flex flex-col gap-10">
+    <div className="bg-white text-black px-6 md:px-12 lg:px-24 xl:px-32 py-12 flex flex-col gap-10">
       <div className="flex justify-between">
         <p>Industry: Real Estate</p>
         <p>Year: 2023</p>

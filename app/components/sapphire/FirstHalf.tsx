@@ -3,8 +3,8 @@ import React from "react";
 
 const FirstHalf = () => {
   return (
-    <div className="text-white w-1/2 mt-1">
-      <div>
+    <div className="">
+      <div className="text-white w-1/2 mt-1">
         <h1 className="text-3xl font-semibold">Brand Guidelines</h1>
         <p className=" mt-8 pr-8">
           The SapphireCredit Brand Guideline (2025) is a comprehensive document

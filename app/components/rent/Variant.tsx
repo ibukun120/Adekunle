@@ -3,7 +3,7 @@ import React from "react";
 
 const Variant = () => {
   return (
-    <div className="bg-white text-black px-6 md:px-12 lg:px-32 py-12">
+    <div className="bg-white text-black px-6 md:px-12 lg:px-24 xl:px-32 py-12">
       <div className="text-center px-0 md:px-12 lg:px-20">
         <h1 className="text-[#ED2939] text-3xl font-semibold mb-3">
           Logo Variants

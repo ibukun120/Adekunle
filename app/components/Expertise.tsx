@@ -1,5 +1,8 @@
 
-import { Smartphone, Monitor, Globe, Palette, PenTool, Target } from "lucide-react";
+import { Smartphone, Monitor, AppWindow } from "lucide-react";
+import { BsClipboardCheck } from "react-icons/bs";
+import { PiPencilCircle } from "react-icons/pi";
+import { RiPenNibFill } from "react-icons/ri";
 
 const Expertise = () => {
   const areas = [
@@ -26,7 +29,7 @@ const Expertise = () => {
       title: "Website Design",
       description:
         "Designing responsive, visually appealing, and conversion-focused websites. Balancing aesthetics with functionality to communicate brand value and drive user action.",
-      icon: <Globe size={32} />,
+      icon: <AppWindow size={32} />,
       bg: "bg-[#020037]",
       border: "",
     },
@@ -35,7 +38,7 @@ const Expertise = () => {
       title: "Brand & Visual Design",
       description:
         "Developing distinctive brand identities, including logos, color palettes, typography, and visual systems. Ensuring brand consistency across all touchpoints to create a strong and memorable presence.",
-      icon: <Palette size={32} />,
+      icon: <PiPencilCircle size={32} />,
       bg: "bg-[#020037]",
       border: "",
     },
@@ -44,7 +47,8 @@ const Expertise = () => {
       title: "Graphic Design",
       description:
         "Producing eye-catching graphics for marketing campaigns, social media, events, and product promotions. Supporting storytelling with visuals that inspire and inform.",
-      icon: <PenTool size={32} />,
+      icon: <RiPenNibFill size={32} />
+,
       bg: "bg-[#0059FF]",
       border: "",
     },
@@ -53,7 +57,7 @@ const Expertise = () => {
       title: "Product Strategy",
       description:
         "Defining product direction through user research, market analysis, and competitive benchmarking. Aligning design decisions with business goals to deliver impactful digital solutions.",
-      icon: <Target size={32} />,
+      icon: <BsClipboardCheck size={32} />,
       bg: "bg-[#020037]",
       border: "",
     },

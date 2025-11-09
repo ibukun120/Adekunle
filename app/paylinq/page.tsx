@@ -7,6 +7,7 @@ import OverviewText from "../components/paylinq/OverviewText";
 import Work from "../components/paylinq/Work";
 import MobileApp from "../components/paylinq/MobileApp";
 import WebApp from "../components/paylinq/WebApp";
+import ProjectNav from "../components/paylinq/ProjectNav";
 
 const PayLinq = () => {
   return (
@@ -17,6 +18,7 @@ const PayLinq = () => {
       <Work/>
       <MobileApp/>
       <WebApp/>
+      <ProjectNav/>
       <div>
         {/* <Image src='/images/paylinq/img70.png' alt="image70" height={400} width={700}/> */}
       </div>

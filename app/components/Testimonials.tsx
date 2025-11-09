@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { Quote, Star } from 'lucide-react';
+import Image from 'next/image';
 
 interface Testimonial {
   quote: string;
@@ -74,7 +75,8 @@ export default function Testimonials() {
                          transform transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl"
             >
               <div className="flex items-center justify-between mb-4">
-                <Quote className="w-8 h-8 text-blue-300 opacity-70" />
+                {/* <Quote className="w-8 h-8 text-blue-300 opacity-70" /> */}
+                <Image src='/images/qt.png' alt='qt' width={100} height={100} className="w-12 h-8 text-blue-300 opacity-70"/>
                 {testimonial.rating && <StarRating count={testimonial.rating} />}
               </div>
 

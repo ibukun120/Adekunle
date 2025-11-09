@@ -2,7 +2,7 @@ import React from "react";
 
 const Color = () => {
   return (
-    <div className="bg-white text-white px-6 md:px-12 lg:px-32 py-12">
+    <div className="bg-white text-white px-6 md:px-12 lg:px-24 xl:px-32 py-12">
       {/* first div */}
       <div className="flex md:flex-row flex-col">
         <div className="bg-[#ED2939] p-6 w-full md:w-3/5 pt-20">

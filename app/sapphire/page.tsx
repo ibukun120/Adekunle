@@ -8,10 +8,11 @@ import ColorPalette from "../components/sapphire/ColorPallet";
 import BrandShowcase from "../components/sapphire/BrandShowcase";
 import FirstHalf from "../components/sapphire/FirstHalf";
 import Joint from "../components/sapphire/Joint";
+import First from "../components/sapphire/First";
 
 const page = () => {
   return (
-    <div>
+    <div className="bg-white">
       <Home />
       <HomeText/>
       <LogoEvolution/>
@@ -19,7 +20,11 @@ const page = () => {
       <OurBrands/>
       <ColorPalette/>
       <BrandShowcase/>
-      <Joint/>
+      {/* <Joint/> */}
+      <First/>
+      <div className="w-full h-12 bg-white">
+
+      </div>
     </div>
   );
 };

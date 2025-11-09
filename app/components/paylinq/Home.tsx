@@ -4,7 +4,7 @@ import Tick from "./Tick";
 
 const Home = () => {
   return (
-    <div className="flex gap-4 md:gap-12 px-4  md:px-12 lg:px-24 py-16 bg-white w-full lg:min-h-screen flex-col md:flex-row">
+    <div className="flex gap-4 md:gap-12 px-4  md:px-12 lg:px-24 py-16 bg-white w-full xl:min-h-screen flex-col md:flex-row">
       {/* first div */}
       <div className="w-full md:w-1/2 flex flex-col gap-5 ">
         <div>
@@ -13,7 +13,7 @@ const Home = () => {
             alt="front"
             height={100}
             width={300}
-            className="w-full h-24 md:pr-6"
+            className="lg:w-[567px] lg:h-[119px]"
           />
         </div>
         <p className="text-[#002366] text-xl">
@@ -65,7 +65,7 @@ const Home = () => {
           alt="front2"
           width={300}
           height={100}
-          className="w-full"
+          className=" lg:w-[510px] xl:h-[426px]"
         />
       </div>
     </div>

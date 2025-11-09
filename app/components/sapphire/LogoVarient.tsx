@@ -18,7 +18,7 @@ const LogoVarient = () => {
             alt="solar.png"
             width={250}
             height={50}
-            className="h-[87.5px] w-[380px]"
+            className="h-[87.5px] w-[380px] md:w-[320px]"
           />
 
           <Image
@@ -26,7 +26,7 @@ const LogoVarient = () => {
             alt="device1.png"
             width={250}
             height={50}
-            className="h-[87.5px] w-[380px]"
+            className="h-[87.5px] w-[380px] md:w-[320px]"
           />
         </div>
 
@@ -36,7 +36,7 @@ const LogoVarient = () => {
             alt="device2.png"
             width={250}
             height={50}
-            className="h-[87.5px] w-[380px]"
+            className="h-[87.5px] w-[380px] md:w-[320px]"
           />
 
           <Image
@@ -44,7 +44,7 @@ const LogoVarient = () => {
             alt="loan.png"
             width={250}
             height={50}
-            className="h-[87.5px] w-[380px]"
+            className="h-[87.5px] w-[380px] md:w-[320px]"
           />
         </div>
       </div>

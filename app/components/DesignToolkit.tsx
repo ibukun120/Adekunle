@@ -96,8 +96,8 @@ export default function DesignToolkit() {
                   className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 p-6 flex flex-col"
                 >
                   <div className="flex items-center space-x-4">
-                    <div className="flex shrink-0 w-12 h-12">
-                      {tool.link? <Image src={tool.link} alt="Photoshop" width={48} height={48} className={`w-12 h-12 ${tool.bg} p-2 rounded-2xl`} /> : <p className={`w-12 h-12 font-bold ${tool.color} ${tool.bg} rounded-2xl text-2xl flex justify-center items-center`} >{tool.text}</p> }
+                    <div className="flex shrink-0 w-18 h-18">
+                      {tool.link? <Image src={tool.link} alt="Photoshop" width={48} height={48} className={`w-18 h-18 ${tool.bg} p-2 rounded-2xl`} /> : <p className={`w-18 h-18 font-bold ${tool.color} ${tool.bg} rounded-2xl text-4xl flex justify-center items-center`} >{tool.text}</p> }
                       
                     </div>
                     <div className="flex-1">
