@@ -2,20 +2,20 @@ import Image from 'next/image';
 
 const MobileApp = () => {
   const images = [
-    { id: 1, src: "/images/paylinq/img1.jpg", alt: "Image 1" },
-    { id: 2, src: "/images/paylinq/img2.png", alt: "Image 2" },
-    { id: 3, src: "/images/paylinq/img3.png", alt: "Image 3" },
-    { id: 4, src: "/images/paylinq/img4.png", alt: "Image 4" },
-    { id: 5, src: "/images/paylinq/img5.png", alt: "Image 5" },
-    { id: 6, src: "/images/paylinq/img6.png", alt: "Image 6" },
-    { id: 7, src: "/images/paylinq/img7.png", alt: "Image 7" },
-    { id: 8, src: "/images/paylinq/img8.png", alt: "Image 8" },
-    { id: 9, src: "/images/paylinq/img9.png", alt: "Image 9" },
-    { id: 10, src: "/images/paylinq/img10.png", alt: "Image 10" },
-    { id: 11, src: "/images/paylinq/img11.png", alt: "Image 11" },
-    { id: 12, src: "/images/paylinq/img12.png", alt: "Image 12" },
-    { id: 13, src: "/images/paylinq/img13.png", alt: "Image 13" },
-    { id: 14, src: "/images/paylinq/img14.png", alt: "Image 14" },
+    { id: 1, src: "/images/paylinq/img30.png", alt: "Image 1" },
+    { id: 2, src: "/images/paylinq/img31.png", alt: "Image 2" },
+    { id: 3, src: "/images/paylinq/img32.png", alt: "Image 3" },
+    { id: 4, src: "/images/paylinq/img33.png", alt: "Image 4" },
+    { id: 5, src: "/images/paylinq/img34.png", alt: "Image 5" },
+    { id: 6, src: "/images/paylinq/img35.png", alt: "Image 6" },
+    { id: 7, src: "/images/paylinq/img36.png", alt: "Image 7" },
+    { id: 8, src: "/images/paylinq/img37.png", alt: "Image 8" },
+    { id: 9, src: "/images/paylinq/img38.png", alt: "Image 9" },
+    { id: 10, src: "/images/paylinq/img39.png", alt: "Image 10" },
+    { id: 11, src: "/images/paylinq/img40.png", alt: "Image 11" },
+    { id: 12, src: "/images/paylinq/img41.png", alt: "Image 12" },
+    { id: 13, src: "/images/paylinq/img42.png", alt: "Image 13" },
+    { id: 14, src: "/images/paylinq/img43.png", alt: "Image 14" },
   ];
 
   return (
@@ -31,8 +31,8 @@ const MobileApp = () => {
           <Image
             src={image.src}
             alt={image.alt}
-            height={300}
-            width={150}
+            height={600}
+            width={200}
             className="object-cover w-[153.4px] h-[333.5px]"
           />
         </div>

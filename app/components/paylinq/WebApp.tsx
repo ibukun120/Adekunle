@@ -4,14 +4,14 @@ import Image from 'next/image';
 const WebApp = () => {
   const images = [
     { id: 1, src: "/images/paylinq/img70.png", alt: "Image 1" },
-    { id: 2, src: "/images/paylinq/img16.png", alt: "Image 2" },
-    { id: 3, src: "/images/paylinq/img17.png", alt: "Image 3" },
-    { id: 4, src: "/images/paylinq/img18.png", alt: "Image 4" },
-    { id: 5, src: "/images/paylinq/img19.png", alt: "Image 5" },
-    { id: 6, src: "/images/paylinq/img20.png", alt: "Image 6" },
-    { id: 7, src: "/images/paylinq/img21.png", alt: "Image 7" },
-    { id: 8, src: "/images/paylinq/img22.png", alt: "Image 8" },
-    { id: 9, src: "/images/paylinq/img23.png", alt: "Image 9" },
+    { id: 2, src: "/images/paylinq/img71.png", alt: "Image 2" },
+    { id: 3, src: "/images/paylinq/img72.png", alt: "Image 3" },
+    { id: 4, src: "/images/paylinq/img72.png", alt: "Image 4" },
+    { id: 5, src: "/images/paylinq/img73.png", alt: "Image 5" },
+    { id: 6, src: "/images/paylinq/img74.png", alt: "Image 6" },
+    { id: 7, src: "/images/paylinq/img75.png", alt: "Image 7" },
+    { id: 8, src: "/images/paylinq/img75.png", alt: "Image 8" },
+    { id: 9, src: "/images/paylinq/img76.png", alt: "Image 9" },
   ];
 
 
@@ -28,8 +28,8 @@ const WebApp = () => {
               <Image
                 src={image.src}
                 alt={image.alt}
-                height={200}
-                width={400}
+                height={400}
+                width={600}
                 className="object-contain w-[250.4px] h-[200.5px] md:w-[371.4px] md:h-[247px]"
               />
             </div>
