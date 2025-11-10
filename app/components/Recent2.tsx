@@ -7,19 +7,19 @@ const Recent2 = () => {
     {
       title: "Paylinq Solutions",
       id: 1,
-      link: "/images/lappy.png",
+      link: "/images/background13.png",
       projectLink: "/paylinq",
     },
     {
       title: "Peakwise Financials",
       id: 2,
-      link: "/images/peakwise.png",
+      link: "/images/background14.png",
       projectLink: "/peakwise",
     },
     {
       title: "Lookali (Local freelance app)",
       id: 3,
-      link: "/images/lookali.png",
+      link: "/images/background15.png",
       projectLink: "/lookali",
     },
   ];

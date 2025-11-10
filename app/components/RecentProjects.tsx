@@ -7,19 +7,19 @@ const RecentProjects = () => {
     {
       title: "SapphireCredit",
       id: 1,
-      link: "/images/Background1.png",
+      link: "/images/background10.png",
       projectLink: "/sapphire",
     },
     {
       title: "Now Rent Easy Property Mgt",
       id: 2,
-      link: "/images/Background2.png",
+      link: "/images/background11.png",
       projectLink: "/Renteasy",
     },
     {
       title: "FarmHive",
       id: 3,
-      link: "/images/Background3.png",
+      link: "/images/background12.png",
       projectLink: "#",
     },
   ];

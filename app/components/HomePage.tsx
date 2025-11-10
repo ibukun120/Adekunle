@@ -21,7 +21,7 @@ const HomePage = () => {
 
       {/* image div */}
       <div className="w-full md:w-1/2 flex items-center justify-center">
-        <Image src="/images/Frame4.png" alt="Frame4.png" width={390} height={442} className=""/>
+        <Image src="/images/Group886.png" alt="Group886.png" width={390} height={442} className=""/>
       </div>
     </div>
   );
