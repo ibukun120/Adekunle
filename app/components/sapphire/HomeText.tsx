@@ -2,7 +2,7 @@ import React from "react";
 
 const HomeText = () => {
   return (
-    <div className="bg-white text-black px-4 md:px-12 lg:px-28 py-24 md:py-12">
+    <div className="bg-white text-black px-4 md:px-12 lg:px-28 py-10 md:py-12">
       <div className="flex justify-between">
         <p>Industry: Fintech (Digital Lending, Financial Inclusion)</p>
         <p>Year: 2025</p>
@@ -55,7 +55,7 @@ const HomeText = () => {
       </div>
 
       <div className="mt-10">
-        <h1 className="text-2xl text-[#0F52BA] font-semibold mb-4">Problem & Goal</h1>
+        <h1 className="text-2xl text-[#0F52BA] font-semibold md:mb-4">Problem & Goal</h1>
         <p>The previous brand identity lacked cohesion, scalability, and modern appeal. With SapphireCredit expanding into multiple product verticals, there was a need for a refreshed brand identity that:</p>
         <ul className="list-disc ml-6">
           <li>Communicated trust, security, and innovation</li>

@@ -4,6 +4,7 @@ import Home from '../components/peakwise/Home'
 import Overview from '../components/peakwise/Overview'
 import OverviewText from '../components/peakwise/OverviewText'
 import Pic from '../components/peakwise/Pic'
+import PicMobile from '../components/peakwise/PicMobile'
 import ProjectNav from '../components/peakwise/ProjectNav'
 
 const page = () => {
@@ -13,6 +14,7 @@ const page = () => {
       <Overview/>
       <OverviewText/>
       <Pic/>
+      <PicMobile/>
       <ProjectNav/>
     </div>
   )

@@ -26,7 +26,7 @@ const Nav = () => {
           <Link href="/">Home</Link>
         </li>
         <li className="hover:text-[#0059FF] transition">
-          <Link href="#project">Projects</Link>
+          <Link href="/#project">Projects</Link>
         </li>
         <li className="hover:text-[#0059FF] transition">
           <Link href="#">About</Link>

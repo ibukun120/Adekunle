@@ -11,7 +11,7 @@
 //           alt="Group48.png"
 //           width={680}
 //           height={1000}
-          
+
 //           className="object-cover"
 //         />
 //       </div>
@@ -22,7 +22,7 @@
 //           alt="Group49.png"
 //           width={680}
 //           height={1000}
-          
+
 //           className="object-cover"
 //         />
 //       </div>
@@ -31,9 +31,6 @@
 // };
 
 // export default Pic;
-
-
-
 
 import Image from "next/image";
 import React from "react";

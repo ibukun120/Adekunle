@@ -2,7 +2,7 @@ import React from "react";
 
 const OurBrands = () => {
   return (
-    <div className="bg-white px-4 md:px-12 lg:px-32 py-24 md:py-12">
+    <div className="bg-white px-4 md:px-12 lg:px-32 py-10 md:py-12">
       <h1 className="text-3xl font-semibold text-[#0F52BA] text-center">Our Brand Type</h1>
       <p className="mt-6 text-black">
         The SapphireCredit logo has been thoughtfully crafted to reflect the

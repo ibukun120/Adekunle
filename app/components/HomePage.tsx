@@ -1,6 +1,7 @@
 // import React from 'react'
 
 import Image from "next/image";
+import Link from "next/link";
 
 const HomePage = () => {
   return (
@@ -15,7 +16,7 @@ const HomePage = () => {
         </p>
         <div className="flex md:flex-start justify-center md:justify-normal gap-10 md:gap-4">
           <button className="py-2 px-4 md:px-8 rounded-full border cursor-pointer hover:scale-105 transition duration-300">Get in Touch</button>
-          <button className="py-2 px-4 md:px-8 rounded-full bg-[#020037] text-white hover:scale-105 cursor-pointer transition duration-300">View Projects</button>
+          <Link href='#project' className="py-2 px-4 md:px-8 rounded-full bg-[#020037] text-white hover:scale-105 cursor-pointer transition duration-300">View Projects</Link>
         </div>
       </div>
 

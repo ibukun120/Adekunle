@@ -3,7 +3,7 @@ import React from "react";
 
 const LogoEvolution = () => {
   return (
-    <div className="bg-white px-4 md:px-12 lg:px-24 py-16 md:py-24">
+    <div className="bg-white px-4 md:px-12 lg:px-24 py-8 md:py-24">
       <h1 className="text-center text-3xl font-semibold text-[#0F52BA]">
         Logo Evolution
       </h1>
