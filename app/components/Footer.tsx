@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 // import React from "react";
 
 const Footer = () => {
@@ -11,7 +12,7 @@ const Footer = () => {
         </div>
 
         <div>
-          <button className="bg-white text-black px-8 py-1 rounded-full cursor-pointer">
+          <button className="bg-white text-black w-[214px] h-[44px] rounded-full cursor-pointer">
             Contact me
           </button>
         </div>
@@ -30,35 +31,39 @@ const Footer = () => {
             <p>Adekunle Adebona</p>
           </div>
 
-          <div className="flex gap-6">
-            <Image
-              src="/images/Vector1.png"
+          <div className="flex gap-6 justify-center items-center">
+            <Link href="https://www.behance.net/adebonaadekunle">
+              <Image
+                src="/images/foot1.png"
+                alt="Vector1.png"
+                width={100}
+                height={100}
+                className="w-[73.44828033447266px] h-[13.63576889038086px]"
+              />
+            </Link>
+            <Link href="https://dribbble.com/Adebonaadekunlesamuel">
+              <Image
+                src="/images/foot2.png"
+                alt="Vector1.png"
+                width={100}
+                height={100}
+                className="w-[75.21861267089844px] h-[21.331695556640625px]"
+              />
+            </Link>
+            <Link href='https://www.linkedin.com/in/adekunle-adebona'><Image
+              src="/images/foot3.png"
               alt="Vector1.png"
               width={100}
               height={100}
-              className="w-12 h-4"
-            />
-            <Image
-              src="/images/Vector2.png"
-              alt="Vector1.png"
-              width={100}
-              height={100}
-              className="w-12 h-4"
-            />
-            <Image
-              src="/images/svg-1199834497_4230.png"
-              alt="Vector1.png"
-              width={100}
-              height={100}
-              className="w-12 h-4"
-            />
-            <Image
-              src="/images/Vector1.png"
+              className="w-[72.46724700927734px] h-[18.116811752319336px]"
+            /></Link>
+            <Link href='https://www.instagram.com/the_billionaire_designer1/'><Image
+              src="/images/foot4.png"
               alt="Vector3.png"
               width={100}
               height={100}
-              className="w-12 h-4"
-            />
+              className="w-[74.60481262207031px] h-[21.136247634887695px]"
+            /></Link>
           </div>
         </div>
 

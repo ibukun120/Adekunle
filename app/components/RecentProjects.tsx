@@ -20,7 +20,7 @@ const RecentProjects = () => {
       title: "FarmHive",
       id: 3,
       link: "/images/background12.png",
-      projectLink: "#",
+      projectLink: "/farmhive",
     },
   ];
 

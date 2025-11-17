@@ -67,13 +67,13 @@ export default function Testimonials() {
           Testimonials
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="bg-[#02003733] bg-opacity-50 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-blue-500 border-opacity-30 
-                         transform transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl"
+              className="bg-[#02003733] bg-opacity-50 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-blue-500 border-opacity-30 min-h-[315px]"
             >
+              {/* xl:w-[389px] xl:h-[315px] */}
               <div className="flex items-center justify-between mb-4">
                 {/* <Quote className="w-8 h-8 text-blue-300 opacity-70" /> */}
                 <Image src='/images/qt.png' alt='qt' width={100} height={100} className="w-12 h-8 text-blue-300 opacity-70"/>
@@ -84,7 +84,7 @@ export default function Testimonials() {
                 {testimonial.quote}
               </p>
 
-              <div className='flex gap-1 items-center'>
+              <div className='flex gap-1 items-center text-sm whitespace-nowrap'>
                 <p className="font-semibold text-white">{testimonial.author}</p>
                 <p className="text-sm text-blue-200">{testimonial.role}</p>
               </div>

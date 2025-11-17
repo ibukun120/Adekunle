@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, } from "next/font/google";
+import { Geist, Geist_Mono, Manrope, } from "next/font/google";
 import "./globals.css";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
+// import { Manrope } from "next/font/google";
 // import { Variable } from "lucide-react";
 // import { ElmessSans } from "next/font/google";
 
@@ -15,6 +16,15 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
+const manrope = Manrope({
+  subsets: ["latin"],
+  weight: ["200", "300", "400", "500", "600", "700", "800"],
+  variable: "--font-manrope",
+});
+
+// ${geistSans.variable} ${geistMono.variable}
+
 
 // const elmsSans = ElmessSans({
 //   subsets: ["latin"],
@@ -34,7 +44,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${manrope.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Nav />
         {children}

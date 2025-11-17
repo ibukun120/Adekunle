@@ -1,28 +1,90 @@
+"use client";
 import Image from "next/image";
 
-const Tin = () => {
+export default function MovingText() {
   return (
-    <div className="bg-[#0059FF] px-0 text-center text-sm md:text-xl text-white flex justify-center items-center py-3 gap-4 flex-col md:flex-row">
-      <p className="flex justify-center items-center">
-        Designed for{" "}
-        <span className="md:font-bold">
-          fintech, edtech, logistics, and Saas
-        </span>
-        <span className=" md:hidden block ml-2 md:ml-0 ">
-          <Image src="/images/star.png" alt="star" width={15} height={15} />
-        </span>
-      </p>
-      <span className="hidden md:inline">
-        <Image src="/images/star.png" alt="star" width={15} height={15} />
-      </span>
-      <p>
-        Designed{" "}
-        <span className="md:font-bold">
-          landing pages, Mobile apps, Web Apps, Websites,
-        </span>
-      </p>
+    <div className="w-full bg-[#0059FF] py-4 overflow-hidden px-4 md:px-16">
+      {/* Wrapper that hides overflow */}
+      <div className="relative flex overflow-x-hidden">
+        
+        {/* Marquee content — First Loop */}
+        <div className="animate-marquee flex items-center whitespace-nowrap gap-6 px-8">
+          <span className="text-white text-lg">
+            Designed for <span className="font-semibold">fintech, edtech, logistics, and SaaS</span>
+          </span>
+
+          <Image src="/images/star.png" width={16} height={16} alt="star" />
+
+          <span className="text-white text-lg">
+            Designed <span className="font-semibold">landing pages, Mobile apps, Web Apps, Websites</span>
+          </span>
+
+          <Image src="/images/star.png" width={16} height={16} alt="star" />
+
+          <span className="text-white text-lg">
+            <span className="font-semibold">7+ Years</span> Industry Experience
+          </span>
+
+          <Image src="/images/star.png" width={16} height={16} alt="star" />
+
+          <span className="text-white text-lg">
+            <span className="font-semibold">5 Days MVP</span> Delivery Timeline
+          </span>
+        </div>
+
+        {/* Duplicate for seamless infinite scroll */}
+        <div className="animate-marquee2 flex items-center whitespace-nowrap gap-6 px-8">
+          <span className="text-white text-lg">
+            Designed for <span className="font-semibold">fintech, edtech, logistics, and SaaS</span>
+          </span>
+
+          <Image src="/images/star.png" width={16} height={16} alt="star" />
+
+          <span className="text-white text-lg">
+            Designed <span className="font-semibold">landing pages, Mobile apps, Web Apps, Websites</span>
+          </span>
+
+          <Image src="/images/star.png" width={16} height={16} alt="star" />
+
+          <span className="text-white text-lg">
+            <span className="font-semibold">7+ Years</span> Industry Experience
+          </span>
+
+          <Image src="/images/star.png" width={16} height={16} alt="star" />
+
+          <span className="text-white text-lg">
+            <span className="font-semibold">5 Days MVP</span> Delivery Timeline
+          </span>
+        </div>
+      </div>
+
+      <style jsx>{`
+        @keyframes marquee {
+          0% {
+            transform: translateX(0);
+          }
+          100% {
+            transform: translateX(-50%);
+          }
+        }
+
+        @keyframes marquee2 {
+          0% {
+            transform: translateX(100%);
+          }
+          100% {
+            transform: translateX(0);
+          }
+        }
+
+        .animate-marquee {
+          animation: marquee 20s linear infinite;
+        }
+
+        .animate-marquee2 {
+          animation: marquee2 20s linear infinite;
+        }
+      `}</style>
     </div>
   );
-};
-
-export default Tin;
+}
