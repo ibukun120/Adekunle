@@ -5,7 +5,7 @@ const Last = () => {
   return (
     <div className="bg-linear-to-b from-[#ED2939] to-[#000000] py-10 md:py-16 px-4 md:px-12 lg:px-24 xl:px-32">
       <div className="text-white flex justify-center items-center gap-4 md:gap-10 md:flex-row flex-col">
-        <div className="flex justify-center items-center gap-4 md:gap-10 mt-1">
+        <div className="flex justify-center flex-col items-center gap-4 md:gap-10 mt-1">
           <div className="md:w-1/2">
             <h1 className="font-bold text-4xl mb-4">Brand Guidelines</h1>
             <p className="mb-4 text-sm md:text-base">
