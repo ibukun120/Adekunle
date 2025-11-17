@@ -31,7 +31,7 @@ const Variant = () => {
       </div>
       <div className="flex justify-center items-center gap-12 md:gap-32 mt-20">
         <Image
-          src="/images/rent/variant4.png"
+          src="/images/rent/Variant4.png"
           alt="variant2"
           height={100}
           width={100}
