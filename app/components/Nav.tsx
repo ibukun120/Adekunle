@@ -68,7 +68,7 @@ const Nav = () => {
               </Link>
             </li>
             <li>
-              <Link href="#" onClick={() => setIsOpen(false)}>
+              <Link href="/about" onClick={() => setIsOpen(false)}>
                 About
               </Link>
             </li>
