@@ -1,11 +1,13 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { IoMenu, IoClose } from "react-icons/io5";
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname()
 
   return (
     <nav className="px-4 md:px-24 py-4 bg-white flex justify-between items-center shadow-md w-full fixed top-0 z-50">
@@ -22,14 +24,14 @@ const Nav = () => {
 
       {/* Desktop Menu */}
       <ul className="hidden md:flex justify-center items-center gap-12 text-black font-medium">
-        <li className="hover:text-[#0059FF] transition">
+        <li className={`hover:text-[#0059FF] transition ${pathname === "/" ? "text-[#000000] font-bold tracking-wider" : 'text-black'}`}>
           <Link href="/">Home</Link>
         </li>
-        <li className="hover:text-[#0059FF] transition">
+        <li className={`hover:text-[#0059FF] transition ${pathname === "/project" ? "text-[#000000] font-bold tracking-wider" : 'text-black'}`}>
           <Link href="/#project">Projects</Link>
         </li>
-        <li className="hover:text-[#0059FF] transition">
-          <Link href="#">About</Link>
+        <li className={`hover:text-[#0059FF] transition ${pathname === "/about" ? "text-[#000000] font-bold tracking-wider" : 'text-black'}`}>
+          <Link href="/about">About</Link>
         </li>
       </ul>
 
