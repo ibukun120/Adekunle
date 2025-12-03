@@ -77,7 +77,7 @@ const Expertise = () => {
           >
             <div className="mb-12">{area.icon}</div>
             <h3 className="text-xl font-semibold mb-3">{area.title}</h3>
-            <p className="text-sm text-white font-thin">{area.description}</p>
+            <p className="text-[12px] text-white font-thin">{area.description}</p>
           </div>
         ))}
       </div>

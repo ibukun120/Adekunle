@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 // import React from 'react'
 
-const Recent2 = () => {
+const Recent22 = () => {
   const projects = [
     {
       title: "Paylinq Solutions",
@@ -14,8 +14,9 @@ const Recent2 = () => {
     {
       title: "Peakwise Financials",
       id: 2,
-      link: "/images/background14.png",
+      link: "/images/peak1.png",
       projectLink: "/peakwise",
+      backgroung: "bg-[#043C0A]"
     },
     {
       title: "Lookali (Local freelance app)",
@@ -23,12 +24,31 @@ const Recent2 = () => {
       link: "/images/background15.png",
       projectLink: "/lookali",
     },
+    {
+      title: "Safehold Escrow",
+      id: 4,
+      link: "/images/background13.png",
+      projectLink: "/paylinq",
+    },
+    {
+      title: "Wema Bank Website Redesign",
+      id: 5,
+      link: "/images/peak1.png",
+      projectLink: "/peakwise",
+      backgroung: "bg-[#043C0A]"
+    },
+    {
+      title: "Menutio Landing Page Redesign",
+      id: 6,
+      link: "/images/background15.png",
+      projectLink: "/lookali",
+    },
   ];
   return (
-    <div className="mt-6 mb-16 text-white">
-      <div className="mt-6">
-        <h1 className="">UI Projects</h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 py-4">
+    <div className="mt-6 bg-white px-6 md:px-12 lg:px-24 py-10 text-black ">
+      <div className="mt-6 mb-16">
+        <h1 className="font-bold">UI Projects</h1>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 py-4 space-y-8">
           {projects.map((item) => (
             <div
               key={item.id}
@@ -40,7 +60,7 @@ const Recent2 = () => {
                     src={item.link}
                     alt={item.title}
                     fill
-                    className="object-cover rounded-lg w-full"
+                    className="object-cover rounded-lg w-full bg-[#043C0A]"
                   />
                 </Link>
               </div>
@@ -48,27 +68,21 @@ const Recent2 = () => {
                 href={item.projectLink}
                 className="flex w-full items-center justify-between"
               >
-                <h3 className="mt-3 text-sm">{item.title}</h3>
+                <h3 className="mt-3 text-sm font-bold">{item.title}</h3>
 
-                <ArrowRight
+                <div className="">
+                  <ArrowRight
                   size={20}
-                  className="border p-0.5 mt-2 border-white text-white rounded-full"
+                  className="border p-0.5 mt-2 border-black text-black rounded-full"
                 />
+                </div>
               </Link>
             </div>
           ))}
         </div>
-
-        <Link href="/projects" className="flex justify-start md:justify-center items-center gap-3 mt-10">
-          <h1>View More</h1>
-          <ArrowRight
-            size={20}
-            className="border p-0.5 mt-2 border-white text-white rounded-full"
-          />
-        </Link>
       </div>
     </div>
   );
 };
 
-export default Recent2;
+export default Recent22;

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Recent2 from "./Recent2";
 import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 
 const RecentProjects = () => {
   const brand = [
@@ -48,7 +49,17 @@ const RecentProjects = () => {
                   />
                 </Link>
               </div>
-              <h3 className="mt-3 text-sm">{item.title}</h3>
+              <Link
+                href={item.projectLink}
+                className="flex w-full items-center justify-between"
+              >
+                <h3 className="mt-3 text-sm">{item.title}</h3>
+
+                <ArrowRight
+                  size={20}
+                  className="border p-0.5 mt-2 border-white text-white rounded-full"
+                />
+              </Link>
             </div>
           ))}
         </div>

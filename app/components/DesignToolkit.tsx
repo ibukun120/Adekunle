@@ -93,7 +93,7 @@ export default function DesignToolkit() {
               return (
                 <div
                   key={tool.name}
-                  className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 p-6 flex flex-col"
+                  className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 p-6 flex flex-col "
                 >
                   <div className="flex items-center space-x-4">
                     <div className="flex shrink-0 w-18 h-18">

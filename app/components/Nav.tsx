@@ -27,8 +27,8 @@ const Nav = () => {
         <li className={`hover:text-[#0059FF] transition ${pathname === "/" ? "text-[#000000] font-bold tracking-wider" : 'text-black'}`}>
           <Link href="/">Home</Link>
         </li>
-        <li className={`hover:text-[#0059FF] transition ${pathname === "/project" ? "text-[#000000] font-bold tracking-wider" : 'text-black'}`}>
-          <Link href="/#project">Projects</Link>
+        <li className={`hover:text-[#0059FF] transition ${pathname === "/projects" ? "text-[#000000] font-bold tracking-wider" : 'text-black'}`}>
+          <Link href="/projects">Projects</Link>
         </li>
         <li className={`hover:text-[#0059FF] transition ${pathname === "/about" ? "text-[#000000] font-bold tracking-wider" : 'text-black'}`}>
           <Link href="/about">About</Link>
@@ -63,7 +63,7 @@ const Nav = () => {
               </Link>
             </li>
             <li>
-              <Link href="#project" onClick={() => setIsOpen(false)}>
+              <Link href="/projects" onClick={() => setIsOpen(false)}>
                 Projects
               </Link>
             </li>

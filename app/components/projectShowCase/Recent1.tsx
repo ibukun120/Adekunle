@@ -1,35 +1,39 @@
-import { ArrowRight } from "lucide-react";
 import Image from "next/image";
+// import Recent2 from "./Recent2";
 import Link from "next/link";
-// import React from 'react'
+import { ArrowRight } from "lucide-react";
 
-const Recent2 = () => {
-  const projects = [
+const Recent1 = () => {
+  const brand = [
     {
-      title: "Paylinq Solutions",
+      title: "SapphireCredit",
       id: 1,
-      link: "/images/background13.png",
-      projectLink: "/paylinq",
+      link: "/images/background10.png",
+      projectLink: "/sapphire",
     },
     {
-      title: "Peakwise Financials",
+      title: "Now Rent Easy Property Mgt",
       id: 2,
-      link: "/images/background14.png",
-      projectLink: "/peakwise",
+      link: "/images/background11.png",
+      projectLink: "/Renteasy",
     },
     {
-      title: "Lookali (Local freelance app)",
+      title: "FarmHive",
       id: 3,
-      link: "/images/background15.png",
-      projectLink: "/lookali",
+      link: "/images/background12.png",
+      projectLink: "/farmhive",
     },
   ];
+
   return (
-    <div className="mt-6 mb-16 text-white">
+    <div
+      className="bg-white px-6 md:px-12 lg:px-24 py-10 text-black"
+      id="project"
+    >
       <div className="mt-6">
-        <h1 className="">UI Projects</h1>
+        <h1 className="font-bold">Brand Design Projects</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 py-4">
-          {projects.map((item) => (
+          {brand.map((item) => (
             <div
               key={item.id}
               className="flex flex-col items-center text-center"
@@ -48,27 +52,21 @@ const Recent2 = () => {
                 href={item.projectLink}
                 className="flex w-full items-center justify-between"
               >
-                <h3 className="mt-3 text-sm">{item.title}</h3>
+                <h3 className="mt-3 text-sm font-bold">{item.title}</h3>
 
                 <ArrowRight
                   size={20}
-                  className="border p-0.5 mt-2 border-white text-white rounded-full"
+                  className="border p-0.5 mt-2 border-black text-black rounded-full"
                 />
               </Link>
             </div>
           ))}
         </div>
-
-        <Link href="/projects" className="flex justify-start md:justify-center items-center gap-3 mt-10">
-          <h1>View More</h1>
-          <ArrowRight
-            size={20}
-            className="border p-0.5 mt-2 border-white text-white rounded-full"
-          />
-        </Link>
       </div>
+
+      {/* <Recent2 /> */}
     </div>
   );
 };
 
-export default Recent2;
+export default Recent1;

@@ -27,7 +27,7 @@ const WireFrame2 = () => {
         {images.map((img) => (
           <div
             key={img.id}
-            className="relative w-full aspect-square rounded-xl overflow-hidden"
+            className="relative w-full h-full aspect-square rounded-xl overflow-hidden"
           >
             <Image
               src={img.link}

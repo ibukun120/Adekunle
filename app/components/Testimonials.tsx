@@ -80,13 +80,13 @@ export default function Testimonials() {
                 {testimonial.rating && <StarRating count={testimonial.rating} />}
               </div>
 
-              <p className="text-sm text-blue-50 leading-relaxed mb-6">
+              <p className="text-[12px] text-blue-50 leading-relaxed mb-6">
                 {testimonial.quote}
               </p>
 
               <div className='flex gap-1 items-center text-sm whitespace-nowrap'>
-                <p className="font-semibold text-white">{testimonial.author}</p>
-                <p className="text-sm text-blue-200">{testimonial.role}</p>
+                <p className="font-semibold text-white text-[12px]">{testimonial.author}</p>
+                <p className="text-[12px] text-blue-200">{testimonial.role}</p>
               </div>
             </div>
           ))}

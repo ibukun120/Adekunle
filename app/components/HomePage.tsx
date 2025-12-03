@@ -13,7 +13,9 @@ const HomePage = () => {
           and user expectations.
         </p>
         <div className="flex md:flex-start justify-center md:justify-normal gap-10 md:gap-4 mt-[42px]">
-          <button className="py-2 px-4 md:px-8 rounded-full border cursor-pointer hover:scale-105 transition duration-300">Get in Touch</button>
+          <Link
+          href="/getintouch"
+          className="py-2 px-4 md:px-8 rounded-full border cursor-pointer hover:scale-105 transition duration-300">Get in Touch</Link>
           <Link href='#project' className="py-2 px-4 md:px-8 rounded-full bg-[#020037] text-white hover:scale-105 cursor-pointer transition duration-300">View Projects</Link>
         </div>
       </div>
