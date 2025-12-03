@@ -13,10 +13,23 @@ export default function ContactForm() {
     register,
     handleSubmit,
     formState: { errors, isSubmitting },
+    reset
   } = useForm<FormValues>();
 
   const onSubmit: SubmitHandler<FormValues> = (data) => {
-    console.log(data);
+    // Replace this with your actual email address
+    const yourEmail = "adekunleadebona@gmail.com";
+
+    const subject = encodeURIComponent(`New message from ${data.name}`);
+    const body = encodeURIComponent(
+      `Name: ${data.name}\nEmail: ${data.email}\n\nMessage:\n${data.message}`
+    );
+
+    // Opens the user's default mail client (Gmail in browser if they're logged in)
+    window.location.href = `mailto:${yourEmail}?subject=${subject}&body=${body}`;
+
+    // Optional: reset form after "sending"
+    reset();
   };
 
   return (

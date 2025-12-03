@@ -13,6 +13,7 @@ export default function Home() {
     <div className="bg-white mt-12 md:mt-20">
       <HomePage/>
       <Tin/>
+      <div className="bg-white w-full p-6 block md:hidden"></div>
       <RecentProjects/>
       <Expertise/>
       <DesignToolkit/>

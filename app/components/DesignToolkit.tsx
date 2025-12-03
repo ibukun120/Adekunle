@@ -93,18 +93,18 @@ export default function DesignToolkit() {
               return (
                 <div
                   key={tool.name}
-                  className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 p-6 flex flex-col "
+                  className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 py-[22px] px-[25px] md:px-[31px] flex flex-col w-full md:w-[350px]"
                 >
-                  <div className="flex items-center space-x-4">
+                  <div className="flex items-center space-x-3">
                     <div className="flex shrink-0 w-18 h-18">
                       {tool.link? <Image src={tool.link} alt="Photoshop" width={48} height={48} className={`w-18 h-18 ${tool.bg} p-2 rounded-2xl`} /> : <p className={`w-18 h-18 font-bold ${tool.color} ${tool.bg} rounded-2xl text-4xl flex justify-center items-center`} >{tool.text}</p> }
                       
                     </div>
                     <div className="flex-1">
-                      <h3 className="text-[#1D1F2F]">
+                      <h3 className="text-[#1D1F2F] text-[14.08px] font-semibold">
                         {tool.name}
                       </h3>
-                      <p className="mt-2 text-sm text-[#1D1F2F] leading-relaxed">
+                      <p className="mt-2 text-[10.88px] text-[#1D1F2F] leading-relaxed font-medium">
                         {tool.description}
                       </p>
                     </div>

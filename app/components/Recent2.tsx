@@ -28,7 +28,7 @@ const Recent2 = () => {
     <div className="mt-6 mb-16 text-white">
       <div className="mt-6">
         <h1 className="">UI Projects</h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 py-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 space-y-8 py-4">
           {projects.map((item) => (
             <div
               key={item.id}

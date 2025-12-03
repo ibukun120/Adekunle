@@ -49,10 +49,10 @@ const WorkExperience = () => {
         {experiences.map((exp) => (
           <div
             key={exp.id}
-            className="flex flex-col md:flex-row justify-between border-b border-[#0200374D] py-4"
+            className="flex flex-col md:flex-row justify-between border-b border-[#0200374D] py-8 md:py-4"
           >
             {/* Left Side */}
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-2 py-2">
               <h3 className="text-lg md:text-xl font-semibold text-[#020037]">
                 {exp.role}
               </h3>
@@ -60,7 +60,7 @@ const WorkExperience = () => {
             </div>
 
             {/* Right Side */}
-            <div className="mt-2 md:mt-0 text-[#020037] text-right">
+            <div className="mt-2 md:mt-0 text-[#020037] md:text-right">
               <p className="font-medium">{exp.company}</p>
               <p className="text-sm text-[#020037]">- {exp.location}</p>
             </div>
