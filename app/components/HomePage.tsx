@@ -30,7 +30,7 @@ const HomePage = () => {
       </div>
 
       {/* image div */}
-      <div className="w-full md:w-[473.4009704589844px] flex items-center justify-center mt-24">
+      <div className="w-full md:w-[473.4009704589844px] flex items-center justify-center mt-24 md:mt-0">
         <Image
           src="/images/Group886.png"
           alt="Group886.png"
