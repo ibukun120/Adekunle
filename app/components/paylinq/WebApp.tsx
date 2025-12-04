@@ -30,7 +30,7 @@ const WebApp = () => {
                 alt={image.alt}
                 height={400}
                 width={600}
-                className="object-contain w-[250.4px] h-[200.5px] md:w-[371.4px] md:h-[247px]"
+                className="object-contain w-full h-full"
               />
             </div>
           ))}

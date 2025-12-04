@@ -33,7 +33,7 @@ const MobileApp = () => {
             alt={image.alt}
             height={600}
             width={200}
-            className="object-cover w-[153.4px] h-[333.5px]"
+            className="object-cover w-full h-full"
           />
         </div>
       ))}

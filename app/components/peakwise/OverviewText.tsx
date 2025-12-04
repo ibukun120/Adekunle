@@ -2,7 +2,7 @@ import React from "react";
 
 const OverviewText = () => {
   return (
-    <div className="bg-white text-black flex flex-col gap-14 px-4 md:px-12 lg:px-24 py-16">
+    <div className="bg-white text-black flex flex-col gap-14 px-4 md:px-12 lg:px-24 py-8 md:py-16">
       <div>
         <h1 className="text-[#005C10] text-2xl font-semibold">
           Brief Description of Peakwise Financials

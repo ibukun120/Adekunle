@@ -7,14 +7,14 @@ const ProjectNav: React.FC = () => {
       {/* Left side */}
       <div className="flex items-center  gap-2 cursor-pointer hover:opacity-70 transition">
         <ArrowLeft size={24} className="border p-1 border-black rounded-full" />
-        <p className="text-sm md:text-base font-normal">
+        <p className="text-sm md:text-base font-normal hidden md:block">
           Paylinq Solutions
         </p>
       </div>
 
       {/* Right side */}
       <div className="flex items-center gap-2 cursor-pointer hover:opacity-70 transition">
-        <p className="text-sm md:text-base font-normal">
+        <p className="text-sm md:text-base font-normal hidden md:block">
           Lookali (Local Freelance App)
         </p>
         <ArrowRight size={24} className="border p-1 border-black rounded-full"/>

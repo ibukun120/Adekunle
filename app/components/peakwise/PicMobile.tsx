@@ -3,20 +3,20 @@ import React from 'react'
 
 const PicMobile = () => {
   return (
-      <div className="flex relative md:hidden justify-center items-start w-full py-10 px-4 md:px-12 lg:px-24 bg-white gap">
+      <div className="md:hidden w-full py-4 px-4 bg-white">
           {/* Image 1 */}
-          <div className="w-1/2">
+          <div className="w-full">
             <Image
-              src="/images/peakwise/Group48.png"
-              alt="Group48.png"
-              width={300}
-              height={800}
-              className="object-cover"
+              src="/images/peakwise/Group4.png"
+              alt="Group4.png"
+              width={600}
+              height={2000}
+              className="object-cover w-full h-[2270px]"
             />
           </div>
     
           {/* Image 2 */}
-          <div className="mt-12 -translate-4 w-1/2">
+          {/* <div className="mt-12 -translate-4 w-1/2">
             <Image
               src="/images/peakwise/Group49.png"
               alt="Group49.png"
@@ -24,7 +24,7 @@ const PicMobile = () => {
               height={800}
               className="object-cover"
             />
-          </div>
+          </div> */}
         </div>
   )
 }

@@ -6,11 +6,13 @@ import OverviewText from '../components/peakwise/OverviewText'
 import Pic from '../components/peakwise/Pic'
 import PicMobile from '../components/peakwise/PicMobile'
 import ProjectNav from '../components/peakwise/ProjectNav'
+import Role from '../components/peakwise/Role'
 
 const page = () => {
   return (
     <div className='mt-12 md:mt-20'>
       <Home/>
+      <Role/>
       <Overview/>
       <OverviewText/>
       <Pic/>

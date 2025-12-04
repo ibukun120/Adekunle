@@ -8,11 +8,13 @@ import Work from "../components/paylinq/Work";
 import MobileApp from "../components/paylinq/MobileApp";
 import WebApp from "../components/paylinq/WebApp";
 import ProjectNav from "../components/paylinq/ProjectNav";
+import Role from "../components/paylinq/Role";
 
 const PayLinq = () => {
   return (
     <div className="mt-12 md:mt-20">
       <Home/>
+      <Role/>
       <Overview/>
       <OverviewText/>
       <Work/>
