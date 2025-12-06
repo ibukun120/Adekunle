@@ -16,7 +16,7 @@ const Recent22 = () => {
       id: 2,
       link: "/images/peak1.png",
       projectLink: "/peakwise",
-      backgroung: "bg-[#043C0A]"
+      classaddition: "bg-[#043C0A] w-full"
     },
     {
       title: "Lookali (Local freelance app)",
@@ -27,15 +27,16 @@ const Recent22 = () => {
     {
       title: "Safehold Escrow",
       id: 4,
-      link: "/images/background13.png",
-      projectLink: "/paylinq",
+      link: "/images/show/Safehold.png",
+      classaddition: 'w-[146px] h-[45px]',
+      projectLink: "/safehold",
     },
     {
       title: "Wema Bank Website Redesign",
       id: 5,
       link: "/images/peak1.png",
       projectLink: "/peakwise",
-      backgroung: "bg-[#043C0A]"
+      classaddition: "bg-[#043C0A] w-full"
     },
     {
       title: "Menutio Landing Page Redesign",
@@ -54,13 +55,13 @@ const Recent22 = () => {
               key={item.id}
               className="flex flex-col items-center text-center"
             >
-              <div className="w-full h-64 relative hover:scale-105 transition-transform duration-300">
+              <div className="w-full h-64 relative hover:scale-105 transition-transform duration-300 shadow-2xl">
                 <Link href={item.projectLink}>
                   <Image
                     src={item.link}
                     alt={item.title}
                     fill
-                    className="object-cover rounded-lg w-full bg-[#043C0A]"
+                    className={item.classaddition? `object-cover rounded-lg ${item.classaddition}` : 'object-cover rounded-lg w-full'}
                   />
                 </Link>
               </div>

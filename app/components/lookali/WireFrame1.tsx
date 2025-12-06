@@ -24,18 +24,18 @@ const WireFrame1 = () => {
         Low-Fi Wireframes
       </h2>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7 gap-0 lg:gap-8">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7 gap-4 lg:gap-8">
         {images.map((img) => (
           <div
             key={img.id}
-            className="relative w-full aspect-square rounded-xl overflow-hidden"
+            className="relative w-full rounded-xl overflow-hidden"
           >
             <Image
               src={img.link}
               alt={`Wireframe ${img.id}`}
               width={300}
               height={1000}
-              className="object-contain h-[222px]"
+              className="object-cover h-full w-full"
             />
           </div>
         ))}

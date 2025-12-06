@@ -43,23 +43,23 @@ const Color = () => {
       <div className="mt-8 flex justify-between gap-6 flex-col md:flex-row md:overflow-x-scroll lg:overflow-x-hidden">
         <div className="font-bold text-sm leading-6">
           <h1 className="text-2xl">Bold</h1>
-          <p>abcdefghijklmnopqrstuvwxyz</p>
-          <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
-          <p>01234567890!@#$%^&*()</p>
+          <p className="tracking-widest">abcdefghijklmnopqrstuvwxyz</p>
+          <p className="tracking-widest">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+          <p className="tracking-widest">01234567890!@#$%^&*()</p>
         </div>
 
         <div className="font-medium text-sm leading-6">
           <h1 className="text-2xl">Medium</h1>
-          <p>abcdefghijklmnopqrstuvwxyz</p>
-          <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
-          <p>01234567890!@#$%^&*()</p>
+          <p className="tracking-widest">abcdefghijklmnopqrstuvwxyz</p>
+          <p className="tracking-widest">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+          <p className="tracking-widest">01234567890!@#$%^&*()</p>
         </div>
 
         <div className="text-sm leading-6">
           <h1 className="text-2xl">Regular</h1>
-          <p>abcdefghijklmnopqrstuvwxyz</p>
-          <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
-          <p>01234567890!@#$%^&*()</p>
+          <p className="tracking-widest">abcdefghijklmnopqrstuvwxyz</p>
+          <p className="tracking-widest">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+          <p className="tracking-widest">01234567890!@#$%^&*()</p>
         </div>
       </div>
       </div>
