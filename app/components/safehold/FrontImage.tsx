@@ -14,7 +14,7 @@ const FrontImage = () => {
           alt="chart"
           width={800}
           height={500}
-          className="w-full md:h-[711px]"
+          className="w-full md:h-[700px]"
         />
       </div>
     </div>
