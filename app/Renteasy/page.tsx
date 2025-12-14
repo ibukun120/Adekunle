@@ -18,6 +18,7 @@ const page = () => {
       <Color/>
       <Pics/>
       <Last/>
+      <div className="w-full h-12 md:h-22 2xl:h-32 bg-white"></div>
     </div>
   )
 }

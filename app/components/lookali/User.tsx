@@ -6,10 +6,10 @@ const User = () => {
     <div className=" bg-white px-6 md:px-16 lg:px-24 py-16 text-black leading-relaxed">
       {/* Survey Insights */}
       <section className="mb-12">
-        <h2 className="text-xl font-semibold text-green-600 mb-4">
+        <h2 className="text-xl font-semibold text-green-600 mb-4 lg:text-2xl 2xl:text-3xl">
           Survey Insights
         </h2>
-        <ul className="list-disc list-inside space-y-2">
+        <ul className="list-disc list-inside space-y-2 text-base 2xl:text-[21.53px]">
           <li>
             Most of the users have heard of freelancing sites but not all of
             them uses it.
@@ -30,7 +30,7 @@ const User = () => {
 
       {/* User Persona */}
       <section className="mb-12">
-        <h2 className="text-xl font-semibold text-green-600 mb-6">
+        <h2 className="text-xl font-semibold text-green-600 mb-6 lg:text-2xl 2xl:text-3xl">
           User Persona
         </h2>
 
@@ -39,19 +39,19 @@ const User = () => {
           {/* Left Side - Image */}
           
           <div className="bg-[#009933] p-6 flex justify-center items-center">
-            <div className="w-40 h-40 rounded-full overflow-hidden relative md:mr-8 ">
+            <div className="w-40 h-40 2xl:w-52 2xl:h-52 rounded-full overflow-hidden relative md:mr-8 ">
             <Image
               src="/images/lookali/user.png"
               alt="User Persona"
               fill
-              className="object-cover"
+              className="object-cover w-full"
             />
           </div>
           </div>
           
 
           {/* Right Side - Info */}
-          <div className="space-y-1 bg-gray-50 flex-1 p-6">
+          <div className="space-y-1 bg-gray-50 flex-1 p-6 text-base 2xl:text-[21.53px]">
             <p>
               <span className="font-semibold">Name:</span> Adams Collins
             </p>
@@ -82,8 +82,8 @@ const User = () => {
 
       {/* Bio */}
       <section className="mb-8">
-        <h3 className="text-lg font-semibold text-gray-900 mb-2">Bio:</h3>
-        <p>
+        <h3 className="text-lg font-semibold text-gray-900 mb-2 lg:text-2xl 2xl:text-3xl">Bio:</h3>
+        <p className="text-base 2xl:text-[21.53px]">
           Adams is a professional Carpenter and an interior designer with 5
           years experience in the field. He lives in Lagos and married with two
           beautiful girls. He runs his personal business and also freelance
@@ -95,8 +95,8 @@ const User = () => {
 
       {/* Goals */}
       <section className="mb-8">
-        <h3 className="text-lg font-semibold text-gray-900 mb-2">Goals:</h3>
-        <p>
+        <h3 className="text-lg font-semibold text-gray-900 mb-2 lg:text-2xl 2xl:text-3xl">Goals:</h3>
+        <p className="text-base 2xl:text-[21.53px]">
           Adams Collins desires to have a large number of client base through
           freelance and expand his businesses and also build workshops all over
           Lagos, especially where his clients are much more for easier reach.
@@ -105,10 +105,10 @@ const User = () => {
 
       {/* Pain Points */}
       <section>
-        <h3 className="text-lg font-semibold text-gray-900 mb-2">
+        <h3 className="text-lg font-semibold text-gray-900 mb-2 lg:text-2xl 2xl:text-3xl">
           Pain Points:
         </h3>
-        <p>
+        <p className="text-base 2xl:text-[21.53px]">
           Getting the right channel or platform to reach out to prospective
           clients has been a mirage, even with his wealth of experience, also
           there is no platform at all for Adams to showcase his skills and

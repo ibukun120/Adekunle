@@ -4,10 +4,10 @@ const OverviewText = () => {
   return (
     <div className="bg-white text-black flex flex-col gap-14 px-4 md:px-12 lg:px-24 py-8 md:py-16">
       <div>
-        <h1 className="text-[#005C10] text-2xl font-semibold">
+        <h1 className="text-[#005C10] text-2xl 2xl:text-3xl font-semibold">
           Brief Description of Peakwise Financials
         </h1>
-        <p className="leading-7">
+        <p className="leading-7 text-base 2xl:text-[21.53px]">
           Peakwise Financials is a Nigerian financial solutions company with a
           bold mission: to simplify money management and empower individuals and
           businesses with smarter financial tools. They are not just a
@@ -20,10 +20,10 @@ const OverviewText = () => {
       </div>
 
       <div>
-        <h1 className="text-[#005C10] text-2xl font-semibold">
+        <h1 className="text-[#005C10] text-2xl 2xl:text-3xl font-semibold">
           Problem Statement
         </h1>
-        <p className="leading-7">
+        <p className="leading-7 text-base 2xl:text-[21.53px]">
           In Nigeria, many people face fragmented financial services, high
           transaction costs, and lack of visibility across their accounts. These
           challenges make it harder to save, budget, and invest wisely. Peakwise
@@ -33,14 +33,14 @@ const OverviewText = () => {
       </div>
 
       <div>
-        <h1 className="text-[#005C10] text-2xl font-semibold">The Vision:</h1>
-        <p className="leading-7">
+        <h1 className="text-[#005C10] text-2xl 2xl:text-3xl font-semibold">The Vision:</h1>
+        <p className="leading-7 text-base 2xl:text-[21.53px]">
           Peakwise is more than a finance company. They are a mission-driven
           team committed to helping individuals and businesses unlock their
           financial potential.
         </p>
 
-        <div className=" mt-8 leading-7">
+        <div className=" mt-8 leading-7 text-base 2xl:text-[21.53px]">
           <p>They set out to:</p>
           <p>Aggregate multiple bank accounts into one view.</p>
           <p>Provide intelligent budgeting and savings tools.</p>
@@ -58,8 +58,8 @@ const OverviewText = () => {
       </div>
 
       <div>
-        <h1 className="text-[#005C10] text-2xl font-semibold">The Solution</h1>
-        <p className="leading-7">
+        <h1 className="text-[#005C10] text-2xl 2xl:text-3xl font-semibold">The Solution</h1>
+        <p className="leading-7 text-base 2xl:text-[21.53px]">
           I designed and built a clean, responsive, mobile-first website that
           positions Peakwise as a modern, user-centric financial solutions
           provider.

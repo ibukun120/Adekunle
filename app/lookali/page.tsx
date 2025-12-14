@@ -9,11 +9,14 @@ import Sketch from '../components/lookali/Sketch'
 import WireFrame1 from '../components/lookali/WireFrame1'
 import WireFrame2 from '../components/lookali/WireFrame2'
 import StyleGuide from '../components/lookali/StyleGuide'
+import Role from '../components/lookali/Role'
+import ProjectNav from '../components/lookali/ProjectNav'
 
 const page = () => {
   return (
     <div className='mt-12 md:mt-20'>
       <Home/>
+      <Role/>
       <Preview/>
       <LookaliOverview/>
       <Graph/>
@@ -23,6 +26,7 @@ const page = () => {
       <Sketch/>
       <WireFrame1/>
       <WireFrame2/>
+      <ProjectNav/>
     </div>
   )
 }

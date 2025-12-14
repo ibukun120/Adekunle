@@ -82,29 +82,29 @@ export default function DesignToolkit() {
   return (
     <>
       <div className=" bg-white py-12 px-4  md:px-12 lg:px-24">
-        <div className="max-w-7xl mx-auto">
-          <h1 className="text-4xl font-bold text-gray-900 mb-12">
+        <div className="max-w-full ">
+          <h1 className="text-4xl 2xl:text-5xl font-bold text-gray-900 mb-12">
             My Design Toolkit
           </h1>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
             {tools.map((tool) => {
               const Icon = tool.icon;
               return (
                 <div
                   key={tool.name}
-                  className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 py-[22px] px-[25px] md:px-[31px] flex flex-col w-full md:w-[350px]"
+                  className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 py-[22px] px-[25px] md:px-[31px] flex flex-col w-full "
                 >
-                  <div className="flex items-center space-x-3">
+                  <div className="flex items-center space-x-3 xl:space-x-6 w-full">
                     <div className="flex shrink-0 w-18 h-18">
                       {tool.link? <Image src={tool.link} alt="Photoshop" width={48} height={48} className={`w-18 h-18 ${tool.bg} p-2 rounded-2xl`} /> : <p className={`w-18 h-18 font-bold ${tool.color} ${tool.bg} rounded-2xl text-4xl flex justify-center items-center`} >{tool.text}</p> }
                       
                     </div>
                     <div className="flex-1">
-                      <h3 className="text-[#1D1F2F] text-[14.08px] font-semibold">
+                      <h3 className="text-[#1D1F2F] text-[14.08px] 2xl:text-[20.08px] font-semibold">
                         {tool.name}
                       </h3>
-                      <p className="mt-2 text-[10.88px] text-[#1D1F2F] leading-relaxed font-medium">
+                      <p className="mt-2 text-[10.88px] 2xl:text-[16.08px] text-[#1D1F2F] leading-relaxed font-medium">
                         {tool.description}
                       </p>
                     </div>

@@ -6,7 +6,7 @@ import { BsWhatsapp } from "react-icons/bs";
 const Curious = () => {
   return (
     <div className="bg-[#020037] py-16 px-6 md:px-12 lg:px-24 text-white">
-      <h1 className="text-2xl font-semibold text-center md:text-left tracking-wide">
+      <h1 className="text-2xl 2xl:text-3xl font-semibold text-center md:text-left tracking-wide">
         Curious About Something?
       </h1>
 
@@ -19,29 +19,29 @@ const Curious = () => {
               alt="profile"
               width={100}
               height={100}
-              className="w-[95.03057098388672px] h-[95.03057098388672px] rounded-full mr-3"
+              className="w-[95.03057098388672px] h-[95.03057098388672px] 2xl:w-[150px] 2xl:h-[150px] rounded-full mr-3"
             />
           </div>
-          <div className="tracking-wide">
+          <div className="tracking-wide text-sm 2xl:text-xl">
             <h1>Adekunle Adebona</h1>
             <p className="font-semibold mt-2">adekunleadebona@gmail.com</p>
           </div>
         </div>
 
         {/* 2nd div */}
-        <div className="flex justify-center items-center mt-8 md:mt-0 flex-col gap-4">
+        <div className="flex justify-center items-center mt-8 md:mt-0 flex-col gap-4 text-sm 2xl:text-xl">
           <div className="text-2xl font-light flex justify-center items-center gap-2.5">
             <h1 className="flex items-center gap-1">
               <span className="text-[#009933]">
                 <BsWhatsapp />
               </span>{" "}
-              <span>Whatsapp</span>
+              <span className="text-sm 2xl:text-xl">Whatsapp</span>
             </h1>
             <h1 className="flex items-center gap-1">
               <span className="bg-[#13638C]">
                 <Linkedin />
               </span>
-              <span>Linkedin</span>
+              <span className="text-sm 2xl:text-xl">Linkedin</span>
             </h1>
           </div>
           <h1 className="flex items-center gap-2">
@@ -50,7 +50,7 @@ const Curious = () => {
         </div>
 
         <div className="flex items-center justify-center mt-8 md:mt-0">
-          <button className="w-[240px] px-[10px] py-3 bg-[#0059FF] text-center rounded-md cursor-pointer hover:scale-105 transition-all duration-300">
+          <button className="w-[240px] px-[10px] 2xl:px-8 text-nowrap py-3 bg-[#0059FF] text-center rounded-md cursor-pointer hover:scale-105 transition-all duration-300 2xl:text-xl">
             Hire me on Contra
           </button>
         </div>

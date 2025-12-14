@@ -27,8 +27,8 @@ const Recent22 = () => {
     {
       title: "Safehold Escrow",
       id: 4,
-      link: "/images/show/Safehold.png",
-      classaddition: 'w-[146px] h-[45px]',
+      link: "/images/show/safe2.png",
+      classaddition: '',
       projectLink: "/safehold",
     },
     {
@@ -55,7 +55,7 @@ const Recent22 = () => {
               key={item.id}
               className="flex flex-col items-center text-center"
             >
-              <div className="w-full h-64 relative hover:scale-105 transition-transform duration-300 shadow-2xl">
+              <div className="w-full h-64 2xl:h-[400px] relative hover:scale-105 transition-transform duration-300 shadow-2xl">
                 <Link href={item.projectLink}>
                   <Image
                     src={item.link}

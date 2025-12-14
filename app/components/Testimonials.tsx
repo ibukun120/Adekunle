@@ -62,7 +62,7 @@ const StarRating: React.FC<{ count: number }> = ({ count }) => {
 export default function Testimonials() {
   return (
     <section className="py-16 px-4 sm:px-6 lg:px-24 bg-[#0059FF]">
-      <div className="max-w-7xl mx-auto">
+      <div className="">
         <h2 className="text-3xl sm:text-4xl font-bold text-white mb-12">
           Testimonials
         </h2>
@@ -71,7 +71,7 @@ export default function Testimonials() {
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="bg-[#02003733] bg-opacity-50 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-blue-500 border-opacity-30 min-h-[315px]"
+              className="bg-[#02003733] bg-opacity-50 backdrop-blur-sm rounded-2xl p-6 2xl:p-10 shadow-lg border border-blue-500 border-opacity-30 min-h-[315px]"
             >
               {/* xl:w-[389px] xl:h-[315px] */}
               <div className="flex items-center justify-between mb-4">
@@ -80,13 +80,13 @@ export default function Testimonials() {
                 {testimonial.rating && <StarRating count={testimonial.rating} />}
               </div>
 
-              <p className="text-[12px] text-blue-50 leading-relaxed mb-6">
+              <p className="text-[12px] 2xl:text-[15px] text-blue-50 leading-relaxed mb-6">
                 {testimonial.quote}
               </p>
 
               <div className='flex gap-1 items-center text-sm whitespace-nowrap'>
-                <p className="font-semibold text-white text-[12px]">{testimonial.author}</p>
-                <p className="text-[12px] text-blue-200">{testimonial.role}</p>
+                <p className="font-semibold text-white text-[12px] 2xl:text-[15px]">{testimonial.author}</p>
+                <p className="text-[12px] text-blue-200 2xl:text-[15px]">{testimonial.role}</p>
               </div>
             </div>
           ))}

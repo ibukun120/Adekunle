@@ -4,10 +4,10 @@ import React from "react";
 const LogoEvolution = () => {
   return (
     <div className="bg-white px-4 md:px-12 lg:px-24 py-8 md:py-24">
-      <h1 className="text-center text-3xl font-semibold text-[#0F52BA]">
+      <h1 className="text-center text-3xl 2xl:text-4xl font-semibold text-[#0F52BA]">
         Logo Evolution
       </h1>
-      <p className="text-center text-black mt-4">
+      <p className="text-center text-black mt-4 text-base 2xl:text-[21.53px]">
         The logo concepts that were submitted as I deliberated with the
         stakeholders
       </p>
@@ -18,26 +18,26 @@ const LogoEvolution = () => {
           alt="logo1.png"
           width={250}
           height={50}
-          className="h-14"
+          className="h-auto 2xl:w-[320px]"
         />
         <Image
           src="/images/sapphire/logo2.png"
           alt="logo2.png"
           width={250}
           height={50}
-          className="h-14"
+          className="h-auto 2xl:w-[320px]"
         />
         <Image
           src="/images/sapphire/logo3.png"
           alt="logo3.png"
           width={250}
           height={50}
-          className="h-14"
+          className="h-auto 2xl:w-[320px]"
         />
       </div>
 
       <div className="mt-18 flex items-center justify-center flex-col text-black gap-1">
-        <h1>Final Designed and Approved Logo</h1>
+        <h1 className="text-base 2xl:text-[21.53px]">Final Designed and Approved Logo</h1>
         <Image
           src="/images/sapphire/SapphireCredit.png"
           alt="SapphireCredit.png"
@@ -49,7 +49,7 @@ const LogoEvolution = () => {
 
       <div className="flex justify-center items-center gap-24 mt-12 md:mt-24 flex-col md:flex-row">
         <div>
-          <h1 className="text-black text-center">Old Logo</h1>
+          <h1 className="text-black text-center text-base 2xl:text-[21.53px]">Old Logo</h1>
           <Image
             src="/images/sapphire/logo4.png"
             alt="logo3.png"
@@ -60,7 +60,7 @@ const LogoEvolution = () => {
         </div>
 
         <div>
-          <h1 className="text-black text-center md:mb-12">New Logo</h1>
+          <h1 className="text-black text-center md:mb-12 text-base 2xl:text-[21.53px]">New Logo</h1>
           <Image
             src="/images/sapphire/SapphireCredit.png"
             alt="logo3.png"

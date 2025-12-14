@@ -19,7 +19,7 @@ const BrandShowcase = () => {
   ];
 
   return (
-    <div className=" bg-white py-10 px-4 md:px-12 lg:px-24 font-[General Sans]">
+    <div className=" bg-white py-10 px-4 md:px-12 lg:px-32 font-[General Sans]">
       <div className="">
         {/* {items.map((item) => (
           <div
@@ -43,14 +43,14 @@ const BrandShowcase = () => {
             alt="image"
             width={400}
             height={400}
-            className="w-full md:w-1/2 h-[300px] bg-[#0F52BA]"
+            className="w-full md:w-1/2 h-[300px] 2xl:h-[450px] bg-[#0F52BA]"
           />
           <Image
             src="/images/sapphire/hoodie.png"
             alt="image"
             width={400}
             height={400}
-            className="w-full md:w-1/2 h-[300px] object-contain bg-[#98DFEA]"
+            className="w-full md:w-1/2 h-[300px] 2xl:h-[450px] object-contain bg-[#98DFEA]"
           />
         </div>
 
@@ -65,33 +65,33 @@ const BrandShowcase = () => {
         </div>
 
         <div className="flex gap-2 mt-4">
-          <div className="bg-[#0F52BA] ">
+          <div className="bg-[#0F52BA] w-1/3">
             <Image
               src="/images/sapphire/jotter.png"
               alt="image"
               width={400}
               height={300}
-              className="object-contain md:h-[341.7px]"
+              className="object-contain md:h-[341.7px] 2xl:h-[380px]"
             />
           </div>
 
-          <div className="bg-gray-200 flex items-center justify-center">
+          <div className="bg-gray-100 flex items-center justify-center w-1/3">
             <Image
               src="/images/sapphire/bag1.png"
               alt="image"
               width={400}
               height={300}
-              className="object-cover md:h-[341.7px]"
+              className="object-cover md:h-[341.7px] 2xl:h-[380px]"
             />
           </div>
 
-          <div className="flex items-center justify-center bg-[#98DFEA]">
+          <div className="flex items-center justify-center bg-[#98DFEA] w-1/3">
             <Image
               src="/images/sapphire/bag2.png"
               alt="image"
               width={400}
               height={300}
-              className="object-contain md:h-[341.7px]"
+              className="object-contain md:h-[341.7px] 2xl:h-[380px] w-full"
             />
           </div>
         </div>
@@ -103,7 +103,7 @@ const BrandShowcase = () => {
               alt="image"
               width={400}
               height={300}
-              className="object-contain md:h-[341.7px]"
+              className="object-contain md:h-[341.7px] 2xl:h-[450px]"
             />
           </div>
 
@@ -113,7 +113,7 @@ const BrandShowcase = () => {
               alt="image"
               width={400}
               height={300}
-              className="object-contain md:h-[341.7px]"
+              className="object-contain md:h-[341.7px] 2xl:h-[450px]"
             />
           </div>
         </div>

@@ -15,7 +15,7 @@ const Pics = () => {
               className="h-[300px] w-60"
             />
           </div>
-          <div className="w-full md:w-1/2 bg-[#FFFFFF]">
+          <div className="w-full md:w-1/2 bg-[#FFFFFF] flex justify-center">
             <Image
               src="/images/rent/img2.png"
               alt="image"

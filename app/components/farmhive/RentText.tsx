@@ -3,14 +3,14 @@ import React from "react";
 const RentText = () => {
   return (
     <div className="bg-white text-black px-6 md:px-12 lg:px-24 xl:px-32 py-12 flex flex-col gap-10">
-      <div className="flex justify-between">
+      <div className="flex justify-between text-base 2xl:text-[22px]">
         <p>Industry: Real Estate</p>
         <p>Year: 2023</p>
       </div>
 
       <div className="">
-        <h1 className="text-[#0A7435] text-3xl font-semibold">My Role</h1>
-        <ul className="list-disc ml-6 mt-4">
+        <h1 className="text-[#0A7435] text-3xl 2xl:text-4xl font-semibold">My Role</h1>
+        <ul className="list-disc ml-6 mt-4 text-base 2xl:text-[22px]">
           <li>
             Conducted brand discovery sessions to understand the company vision.
           </li>
@@ -28,10 +28,10 @@ const RentText = () => {
       </div>
 
       <div>
-        <h1 className="text-[#0A7435] text-3xl font-semibold mb-4">
+        <h1 className="text-[#0A7435] text-3xl 2xl:text-4xl font-semibold mb-4">
           Project Description
         </h1>
-        <p>
+        <p className="text-base 2xl:text-[22px]">
           Now Rent Easy Property Management Inc. (NRE) is a Canada-based
           property management company offering rental and housing solutions.
           They approached me to design a comprehensive brand identity system
@@ -39,7 +39,7 @@ const RentText = () => {
           in the competitive real estate and property management market.
         </p>
 
-        <p className="mt-6">
+        <p className="mt-6 text-base 2xl:text-[22px]">
           The project involved creating a new logo, defining brand colors,
           typography, and visual guidelines, and developing applications across
           stationery, digital, and marketing collateral. The final output was a
@@ -49,19 +49,19 @@ const RentText = () => {
       </div>
 
       <div>
-        <h1 className="text-[#0A7435] text-3xl font-semibold">
+        <h1 className="text-[#0A7435] text-3xl 2xl:text-4xl font-semibold">
           Problem & Goal
         </h1>
-        <h2 className="font-bold mt-4">Problem:</h2>
-        <p>
+        <h2 className="font-bold mt-4 text-base 2xl:text-[22px]">Problem:</h2>
+        <p className="text-base 2xl:text-[22px]">
           The company lacked a cohesive and professional brand identity to
           reflect its services in property management. Its visual identity was
           fragmented, inconsistent across channels, and did not communicate
           reliability to clients.
         </p>
 
-        <h2 className="font-bold mt-4">Goal:</h2>
-        <p>
+        <h2 className="font-bold mt-4 text-base 2xl:text-[22px]">Goal:</h2>
+        <p className="text-base 2xl:text-[22px]">
           To design a unified brand identity system that builds trust, reflects
           modern professionalism, and is scalable across print and digital
           touchpoints.

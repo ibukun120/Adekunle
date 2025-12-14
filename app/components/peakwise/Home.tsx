@@ -4,19 +4,19 @@ import Tick from "../paylinq/Tick";
 
 const Home = () => {
   return (
-    <div className="bg-white text-black px-4 md:px-12 lg:px-24 py-16 md:py-24 flex flex-col md:flex-row gap-12 md:gap-0">
+    <div className="bg-white text-black px-4 md:px-12 lg:px-24 2xl:px-[120px] py-16 md:py-24 flex flex-col md:flex-row gap-12 md:gap-0 justify-between md:mt-18">
       {/* fisrt image */}
-      <div className="w-full md:w-1/2 flex flex-col gap-3 md:gap-8 justify-center">
+      <div className="w-full md:w-2/5 flex flex-col gap-3 md:gap-8 justify-center">
         <div className="w-full">
           <Image
             src="/images/peakwise/Frame39.png"
             alt="Frame39.png"
             width={600}
             height={200}
-            className="w-full md:w-[476px]"
+            className="w-full mt-18"
           />
         </div>
-        <h1 className="text-center md:text-left w-full md:w-[350px]">
+        <h1 className="text-center md:text-left w-full md:w-[350px] 2xl:w-full 2xl:text-[21.53px]">
           Simplify money management and empower individuals and businesses with
           smarter financial tools.{" "}
         </h1>
@@ -36,7 +36,7 @@ const Home = () => {
       </div>
 
       {/* second image */}
-      <div className="w-full md:w-1/2">
+      <div className="w-full md:w-1/2 md:mt-18">
         <Image
           src="/images/peakwise/Group36.png"
           alt="Group36.png"

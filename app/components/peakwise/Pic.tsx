@@ -49,7 +49,7 @@ const Pic = () => {
       </div>
 
       {/* Image 2 */}
-      <div className="relative z-10 ml-[40vw] mt-28 h-[1500px] w-[70vw] ">
+      <div className="relative z-10 ml-[40vw] mt-28 h-[1500px] w-[70vw] 2xl:mb-16">
         <Image
           src="/images/peakwise/Group49.png"
           alt="Group49.png"

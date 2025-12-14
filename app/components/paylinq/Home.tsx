@@ -4,19 +4,19 @@ import Tick from "./Tick";
 
 const Home = () => {
   return (
-    <div className="flex gap-4 md:gap-12 px-6 md:px-12 lg:px-24 py-16 bg-white w-full xl:min-h-screen flex-col md:flex-row">
+    <div className="flex gap-4 md:gap-12 px-6 md:px-12 lg:px-20 py-16 bg-white w-full  flex-col md:flex-row 2xl:gap-28">
       {/* first div */}
-      <div className="w-full md:w-1/2 flex flex-col gap-2 justify-center">
+      <div className="w-full md:w-1/2 flex flex-col gap-2 justify-center mt-10 md:mt-8">
         <div className="flex justify-center items-center md:justify-normal">
           <Image
             src="/images/paylinq/front.png"
             alt="front"
             height={100}
             width={300}
-            className="lg:w-[484px] lg:h-[100px]"
+            className="w-full lg:h-auto"
           />
         </div>
-        <p className="text-[#002366] md:text-black text-xl font-bold text-center md:text-left">
+        <p className="text-[#002366] md:text-black text-[17.24px] 2xl:text-3xl md:text-xl font-medium md:font-bold text-center md:text-left">
           Payment engine enabling seamless settlements, reconciliation &
           collections across Africa
         </p>
@@ -65,7 +65,7 @@ const Home = () => {
           alt="front2"
           width={500}
           height={300}
-          className="h-[277.5px] w-[333px] lg:w-[510px] lg:h-[426px]"
+          className="w-full h-full"
         />
       </div>
     </div>

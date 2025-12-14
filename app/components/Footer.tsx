@@ -7,15 +7,15 @@ const Footer = () => {
     <div className="w-full">
       <div className="bg-linear-to-r from-[#020037] via-[#05009D] to-[#020037] py-16 flex items-center justify-center flex-col text-center gap-6">
         <div>
-          <p className="hidden md:block text-3xl">Great ideas need great designs.</p>
-          <p className="hidden md:block text-3xl">Ready to create yours?</p>
-          <p className="block md:hidden text-3xl">Great ideas need great </p>
-          <p className="block md:hidden text-3xl">designs. Ready to</p>
-          <p className="block md:hidden text-3xl">create yours?</p>
+          <p className="hidden md:block text-3xl 2xl:text-5xl">Great ideas need great designs.</p>
+          <p className="hidden md:block text-3xl 2xl:text-5xl">Ready to create yours?</p>
+          <p className="block md:hidden text-3xl ">Great ideas need great </p>
+          <p className="block md:hidden text-3xl ">designs. Ready to</p>
+          <p className="block md:hidden text-3xl ">create yours?</p>
         </div>
 
         <div>
-          <button className="bg-white text-black w-[214px] h-[44px] rounded-full cursor-pointer">
+          <button className="bg-white text-black w-[214px] h-[44px] rounded-full cursor-pointer 2xl:w-[300px] 2xl:h-[50px] 2xl:text-2xl">
             Contact me
           </button>
         </div>

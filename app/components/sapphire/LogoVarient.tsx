@@ -4,10 +4,10 @@ import React from "react";
 const LogoVarient = () => {
   return (
     <div className="bg-white px-4 md:px-12 lg:px-32 py-16 md:py-24">
-      <h1 className="text-[#0F52BA] text-center text-3xl mb-4 font-semibold">
+      <h1 className="text-[#0F52BA] text-center text-3xl 2xl:text-4xl mb-4 font-semibold">
         Logo Variants
       </h1>
-      <p className="text-center text-black mb-8">
+      <p className="text-center text-black mb-8 text-base 2xl:text-[21.53px]">
         The core SapphireCredit logo was extended into sub-brands to maintain
         consistency and scalability across product lines:
       </p>

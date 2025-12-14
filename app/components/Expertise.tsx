@@ -65,7 +65,7 @@ const Expertise = () => {
 
   return (
     <section className="py-16 px-6 md:px-12 lg:px-24 bg-white">
-      <h2 className="text-3xl md:text-4xl font-bold text-[#020037] mb-6">
+      <h2 className="text-3xl 2xl:text-5xl md:text-4xl font-bold text-[#020037] mb-6">
         Areas of my Expertise
       </h2>
 
@@ -73,11 +73,11 @@ const Expertise = () => {
         {areas.map((area) => (
           <div
             key={area.id}
-            className={`p-8 text-white ${area.bg} border ${area.border}`}
+            className={`p-8 text-white ${area.bg} border ${area.border} 2xl:min-h-[350px]`}
           >
             <div className="mb-12">{area.icon}</div>
-            <h3 className="text-xl font-semibold mb-3">{area.title}</h3>
-            <p className="text-[12px] text-white font-thin">{area.description}</p>
+            <h3 className="text-xl xl:text-2xl 2xl:text-3xl font-semibold mb-3">{area.title}</h3>
+            <p className="text-[12px] xl:text-[15px] 2xl:text-[18px] text-white font-thin">{area.description}</p>
           </div>
         ))}
       </div>

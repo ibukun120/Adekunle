@@ -33,7 +33,7 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="px-4 md:px-[65px] w-full md:w-[590px] bg-white py-4 mt-8 md:mt-0 md:py-6 rounded-xl shadow-lg">
+    <div className="px-4 md:px-[65px] w-full bg-white py-4 mt-8 md:mt-0 md:py-6 rounded-xl shadow-lg">
       <h2 className="text-2xl font-semibold mb-6 text-[#020037]">Let’s get in touch</h2>
 
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">

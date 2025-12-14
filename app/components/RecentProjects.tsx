@@ -39,7 +39,7 @@ const RecentProjects = () => {
               key={item.id}
               className="flex flex-col items-center text-center"
             >
-              <div className="w-full h-64 relative hover:scale-105 transition-transform duration-300">
+              <div className="w-full h-64  2xl:h-[380px] relative hover:scale-105 transition-transform duration-300">
                 <Link href={item.projectLink}>
                   <Image
                     src={item.link}

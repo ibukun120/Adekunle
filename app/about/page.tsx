@@ -13,32 +13,32 @@ const page = () => {
         </h1>
 
         {/* pic div */}
-        <div className="flex flex-col md:flex-row gap-2 mt-8 md:mt-0 py-10 justify-center items-center">
-          <div>
+        <div className="flex flex-col md:flex-row gap-2 mt-8 md:mt-0 py-10 items-center">
+          <div className="xl:w-1/3">
             <Image
               src="/images/about/me1.png"
               alt="/images/about/me1.png"
               width={300}
               height={500}
-              className="w-[408px] md:w-[389px] h-[382px] md:h-[365px] object-cover rounded-lg"
+              className="w-[408px] md:w-[389px] h-[382px] md:h-[365px] xl:w-full object-cover rounded-lg xl:h-full"
             />
           </div>
-          <div>
+          <div className="xl:w-1/3">
             <Image
               src="/images/about/me2.png"
               alt="/images/about/me1.png"
               width={300}
               height={500}
-              className="w-[408px] md:w-[389px] h-[382px] md:h-[365px] object-cover rounded-lg"
+              className="w-[408px] md:w-[389px] h-[382px] md:h-[365px] object-cover rounded-lg xl:w-full xl:h-full"
             />
           </div>
-          <div>
+          <div className="xl:w-1/3">
             <Image
               src="/images/about/me3.png"
               alt="/images/about/me1.png"
               width={300}
               height={500}
-              className="w-[408px] md:w-[389px] h-[382px] md:h-[365px] object-cover rounded-lg"
+              className="w-[408px] md:w-[389px] h-[382px] md:h-[365px] object-cover rounded-lg xl:w-full xl:h-full"
             />
           </div>
         </div>
@@ -49,18 +49,18 @@ const page = () => {
           <h1 className="font font-semibold text-[30px] md:text-[40px] tracking-wider">
             Hello, I'm Adekunle.
           </h1>
-          <p className="mt-8">
+          <p className="mt-8 2xl:text-xl">
             I’m passionate about crafting captivating, user-friendly designs
             with a strong focus on functionality before aesthetics. I also enjoy
             sharing my knowledge through teaching.
           </p>
-          <p className="mt-8 font-[700]">
+          <p className="mt-8 font-[700] 2xl:text-xl">
             With 7 years of experience in graphic design and 5 years in product
             (UI/UX) design, I’ve worked with both local and international
             clients to create impactful, user-centered solutions.
           </p>
 
-          <p className="mt-8">
+          <p className="mt-8 2xl:text-xl">
             My background in graphic design has sharpened my ability to
             communicate effectively with stakeholders and developers, managing
             timelines, providing constructive feedback, and conducting
@@ -70,7 +70,7 @@ const page = () => {
           <h1 className="mt-8 text-[24px] md:text-[40px] font-semibold">
             My Favourite Quote
           </h1>
-          <p className="mt-4">
+          <p className="mt-4 2xl:text-xl">
             “Design isn't merely about aesthetics or feel. It's about function.
             My inventive designs convey profound messages in pixels,
             consistently enchanting users.”
@@ -84,7 +84,8 @@ const page = () => {
         "/images/about/me5.png",
         "/images/about/me6.png",
         "/images/about/me7.jpg",
-        "/images/about/me5.jpg",
+        // "/images/about/me5.jpg",
+        "/images/about/me8.jpg"
       ]}
     />
     <Curious/>

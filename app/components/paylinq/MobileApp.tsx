@@ -20,9 +20,9 @@ const MobileApp = () => {
 
   return (
     <div className='bg-gray-50 px-6 md:px-12 lg:px-24 py-16'>
-      <h1 className='text-[#002366] text-3xl font-semibold mb-10'>Mobile App</h1>
+      <h1 className='text-[#002366] text-3xl 2xl:text-4xl font-semibold mb-10'>Mobile App</h1>
       
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7 gap-4">
+      <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7 gap-4">
       {images.map((image) => (
         <div
           key={image.id}

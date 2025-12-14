@@ -4,10 +4,10 @@ const OverviewText = () => {
   return (
     <div className="px-4 md:px-12 lg:px-24 py-12 bg-white text-black flex flex-col space-y-8">
       <div>
-        <h1 className="font-semibold text-[#008080] mb-3">
+        <h1 className="font-semibold text-[#008080] mb-3 md:text-2xl 2xl:text-3xl ">
           Brief Description of Paylinq Solutions
         </h1>
-        <p>
+        <p className="text-base 2xl:text-[21.53px]">
           PayLinq offers a transformative solution to these common financial
           hurdles. Our platform automates critical financial processes, such as
           cash flow management, transaction processing, and inventory tracking,
@@ -16,8 +16,8 @@ const OverviewText = () => {
       </div>
 
       <div>
-        <h1 className="font-semibold text-[#008080] mb-3">Problem Statement</h1>
-        <p>
+        <h1 className="font-semibold text-[#008080] mb-3 md:text-2xl 2xl:text-3xl">Problem Statement</h1>
+        <p className="text-base 2xl:text-[21.53px]">
           In today's fast-paced business environment, SMEs in supply chain
           management and international trade often face hurdles due to outdated
           systems that show down growth. Managing cash flow, transactions, and
@@ -26,8 +26,8 @@ const OverviewText = () => {
         </p>
       </div>
       <div>
-        <h1 className="font-semibold mb-3">Businesses struggle with:</h1>
-        <ul className="list-disc ml-6">
+        <h1 className="font-semibold mb-3 md:text-2xl 2xl:text-3xl">Businesses struggle with:</h1>
+        <ul className="list-disc ml-6 text-base 2xl:text-[21.53px]">
           <li>Time-consuming manual processes</li>
           <li>Lack of real-time visibility into financial data</li>
           <li>Complex reconciliation of payments and invoices</li>
@@ -39,15 +39,15 @@ const OverviewText = () => {
       </div>
 
       <div>
-        <p>
+        <p className="text-base 2xl:text-[21.53px]">
           These challenges prevent SMEs from focusing on core business
           activities and achieving sustainable growth.
         </p>
       </div>
 
       <div>
-        <h1 className="font-semibold text-[#008080] mb-3">Possible Solution</h1>
-        <p>
+        <h1 className="font-semibold text-[#008080] mb-3 md:text-2xl 2xl:text-3xl">Possible Solution</h1>
+        <p className="text-base 2xl:text-[21.53px]">
           The solution involved designing an integrated experience across the
           PayLinq mobile app, web app, and admin dashboard to bring the
           company’s core features to life. The mobile app provided users with
@@ -57,17 +57,17 @@ const OverviewText = () => {
         
       </div>
 
-      <p>
+      <p className="text-base 2xl:text-[21.53px]">
           The web app was designed to deliver a clear and powerful dashboard
           where businesses could manage collections, view settlements, and
           analyze real-time insights for better decision-making.
         </p>
-        <p>
+        <p className="text-base 2xl:text-[21.53px]">
           The admin dashboard served as a control center, equipping
           administrators with tools to oversee user activities, monitor
           integrations, and generate detailed reconciliation reports.
         </p>
-        <p>
+        <p className="text-base 2xl:text-[21.53px]">
           Together, these platforms formed a scalable and consistent solution
           that translated PayLinq’s vision of seamless integration,
           transparency, and business growth into a practical, user-centered
@@ -75,8 +75,8 @@ const OverviewText = () => {
         </p>
 
       <div>
-        <h1 className="font-semibold mb-3">Goals & Objectives</h1>
-        <ul className="list-disc ml-6">
+        <h1 className="font-semibold mb-3 md:text-2xl 2xl:text-3xl">Goals & Objectives</h1>
+        <ul className="list-disc ml-6 text-base 2xl:text-[21.53px]">
           <li>
             Design interfaces that make virtual accounts easy to set up and use.
           </li>

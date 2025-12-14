@@ -41,7 +41,7 @@ const WorkExperience = () => {
 
   return (
     <section className="py-16 px-6 md:px-12 lg:px-24 bg-[#0059FF] text-white mt-10">
-      <h2 className="text-3xl md:text-4xl font-bold text-white mb-10">
+      <h2 className="text-3xl md:text-4xl 2xl:text-5xl font-bold text-white mb-10">
         Work Experience
       </h2>
 
@@ -53,14 +53,14 @@ const WorkExperience = () => {
           >
             {/* Left Side */}
             <div className="flex flex-col gap-2 py-2">
-              <h3 className="text-lg md:text-xl font-semibold text-white">
+              <h3 className="text-lg md:text-xl 2xl:text-2xl font-semibold text-white">
                 {exp.role}
               </h3>
-              <p className="text-sm text-white">{exp.duration}</p>
+              <p className="text-sm 2xl:text-[22px] text-white">{exp.duration}</p>
             </div>
 
             {/* Right Side */}
-            <div className="mt-2 md:mt-0 text-white md:text-right">
+            <div className="mt-2 md:mt-0 text-white md:text-right 2xl:text-[22px]">
               <p className="font-medium">{exp.company}</p>
               <p className="text-sm text-white">- {exp.location}</p>
             </div>
