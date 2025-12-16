@@ -10,42 +10,51 @@ interface ProcessStep {
   color: string;
   id: number;
   imgLink: string;
-  mag:number;
+  mag: number;
+  magsec: number;
+  magmobile: number;
 }
 
 const processSteps: ProcessStep[] = [
   {
     icon: Search,
     label: "Research",
-    color: "bg-[#008080] w-40",
+    color: "bg-[#008080] ",
     id: 1,
     imgLink: "/images/icions/Vector7.png",
-    mag:0,
-    
+    mag: 0,
+    magsec: 0,
+    magmobile: 0,
   },
   {
     icon: Pencil,
     label: "Wireframes (Lo-Fi)",
-    color: "bg-[#002366] w-60",
+    color: "bg-[#002366] ",
     id: 2,
     imgLink: "/images/icions/Vector8.png",
-    mag:0.7,
+    mag: 0.64,
+    magsec: 0.64,
+    magmobile: 1.7,
   },
   {
     icon: Palette,
     label: "UI Design (Hi-Fi)",
-    color: "bg-[#008080] w-60",
+    color: "bg-[#008080] ",
     id: 4,
     imgLink: "/images/icions/Group.png",
-    mag:1.7,
+    mag: 1.63,
+    magsec: 1.67,
+    magmobile: 3.7,
   },
   {
     icon: MessageSquare,
     label: "Prototype/Feedback",
-    color: "bg-[#002366] w-60",
+    color: "bg-[#002366] ",
     id: 5,
     imgLink: "/images/icions/Vector9.png",
-    mag:2.7,
+    mag: 2.55,
+    magsec: 2.63,
+    magmobile: 5.4,
   },
 ];
 
@@ -60,11 +69,12 @@ export default function Work() {
           </h2>
 
           {/* lookout */}
-          <div className="hidden md:flex flex-col gap-3 items-start mt-10">
+          <div className="flex flex-col gap-3 items-start mt-10">
+            {/* for md */}
             {processSteps.map((step, index) => (
               <div
                 key={step.id}
-                className={`flex items-center gap-2 text-white px-4 py-3 rounded shadow-md justify-center ${step.color} `}
+                className={`hidden md:flex lg:hidden items-center gap-2 text-white px-4 py-3 rounded shadow-md justify-center ${step.color} `}
                 style={{ marginLeft: `${step.mag * 240}px` }}
               >
                 {/* <span>{step.icon}</span> */}
@@ -80,37 +90,52 @@ export default function Work() {
                 </span>
               </div>
             ))}
+
+            {/* for lg */}
+            {processSteps.map((step, index) => (
+              <div
+                key={step.id}
+                className={`hidden lg:flex items-center gap-2 text-white px-5 py-3 rounded shadow-md justify-center ${step.color} `}
+                style={{ marginLeft: `${step.magsec * 290}px` }}
+              >
+                {/* <span>{step.icon}</span> */}
+                <Image
+                  src={step.imgLink}
+                  width={20}
+                  height={20}
+                  alt={step.label}
+                />
+                {/* {step.icon} */}
+                <span className="font-medium text-center text-2xl tracking-wider">
+                  {step.label}
+                </span>
+              </div>
+            ))}
+
+            {/* for mobile */}
+            {processSteps.map((step, index) => (
+              <div
+                key={step.id}
+                className={`md:hidden flex items-center gap-2 text-white px-4 py-3 rounded shadow-md justify-center ${step.color} `}
+                style={{ marginLeft: `${step.magmobile * 20}px` }}
+              >
+                {/* <span>{step.icon}</span> */}
+                <Image
+                  src={step.imgLink}
+                  width={20}
+                  height={20}
+                  alt={step.label}
+                />
+                {/* {step.icon} */}
+                <span className="font-medium text-center text-xl ">
+                  {step.label}
+                </span>
+              </div>
+            ))}
           </div>
           {/* lookout */}
 
-          <div className="md:hidden relative flex flex-col md:flex-col items-center justify-center gap-4">
-            {/* Connecting Line (visible on md+) */}
-            <div className="hidden md:block absolute top-1/2 left-0 right-0 h-1 bg-gradient-to-r from-teal-400 via-emerald-400 to-indigo-600 -z-10 transform -translate-y-1/2 "></div>
-
-            {processSteps.map((step, index) => {
-              const Icon = step.icon;
-              return (
-                <div key={index} className="">
-                  <div
-                    className={`${step.color} text-white px-6 py-3 rounded 
-                               flex items-center gap-3`}
-                              //  style={{ marginLeft: `${index * 144}px` }}
-                  >
-                    {/* <Icon className="w-5 h-5" /> */}
-                    <Image
-                      src={step.imgLink}
-                      width={20}
-                      height={20}
-                      alt={step.label}
-                    />
-                    <span className="font-medium text-sm md:text-base">
-                      {step.label}
-                    </span>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
+          
         </div>
 
         {/* Style Guide */}
@@ -149,7 +174,9 @@ export default function Work() {
 
             {/* Colors Section */}
             <div className="">
-              <h3 className="text-xl 2xl:text-2xl text-gray-800 mt-5 mb-2">Colours</h3>
+              <h3 className="text-xl 2xl:text-2xl text-gray-800 mt-5 mb-2">
+                Colours
+              </h3>
               <div className="flex flex-col sm:flex-row">
                 <div className="w-full md:w-1/2">
                   <div className="bg-[#008080] flex flex-col gap-8 justify-center py-[19px] md:py-10 2xl:py-16 px-[23px] md:px-8 text-white mb-4 md:mb-0 2xl:text-2xl">

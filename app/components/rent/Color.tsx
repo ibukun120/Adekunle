@@ -43,23 +43,23 @@ const Color = () => {
       <div className="mt-8 flex justify-between gap-6 flex-col md:flex-row ">
         <div className="font-bold text-sm leading-6">
           <h1 className="text-2xl">Bold</h1>
-          <p className="tracking-widest text-sm 2xl:text-[15.47pxpx] 2xl:leading-[25px] 2xl:tracking-[4px]">abcdefghijklmnopqrstuvwxyz</p>
-          <p className="tracking-widest text-sm 2xl:text-[15.47pxpx] 2xl:leading-[25px] 2xl:tracking-[4px]">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
-          <p className="tracking-widest text-sm 2xl:text-[15.47pxpx] 2xl:leading-[25px] 2xl:tracking-[4px]">01234567890!@#$%^&*()</p>
+          <p className="tracking-widest text-sm md:text-xs 2xl:text-[15.47pxpx] 2xl:leading-[25px] 2xl:tracking-[4px]">abcdefghijklmnopqrstuvwxyz</p>
+          <p className="tracking-widest text-sm md:text-xs 2xl:text-[15.47pxpx] 2xl:leading-[25px] 2xl:tracking-[4px]">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+          <p className="tracking-widest text-sm md:text-xs 2xl:text-[15.47pxpx] 2xl:leading-[25px] 2xl:tracking-[4px]">01234567890!@#$%^&*()</p>
         </div>
 
         <div className="font-medium text-sm leading-6">
           <h1 className="text-2xl">Medium</h1>
-          <p className="tracking-widest text-sm 2xl:text-[15.47pxpx] 2xl:leading-[25px] 2xl:tracking-[4px]">abcdefghijklmnopqrstuvwxyz</p>
-          <p className="tracking-widest text-sm 2xl:text-[15.47pxpx] 2xl:leading-[25px] 2xl:tracking-[4px]">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
-          <p className="tracking-widest text-sm 2xl:text-[15.47pxpx] 2xl:leading-[25px] 2xl:tracking-[4px]">01234567890!@#$%^&*()</p>
+          <p className="tracking-widest text-sm md:text-xs 2xl:text-[15.47pxpx] 2xl:leading-[25px] 2xl:tracking-[4px]">abcdefghijklmnopqrstuvwxyz</p>
+          <p className="tracking-widest text-sm md:text-xs 2xl:text-[15.47pxpx] 2xl:leading-[25px] 2xl:tracking-[4px]">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+          <p className="tracking-widest text-sm md:text-xs 2xl:text-[15.47pxpx] 2xl:leading-[25px] 2xl:tracking-[4px]">01234567890!@#$%^&*()</p>
         </div>
 
         <div className="text-sm leading-6">
           <h1 className="text-2xl">Regular</h1>
-          <p className="tracking-widest text-sm 2xl:text-[15.47pxpx] 2xl:leading-[25px] 2xl:tracking-[4px]">abcdefghijklmnopqrstuvwxyz</p>
-          <p className="tracking-widest text-sm 2xl:text-[15.47pxpx] 2xl:leading-[25px] 2xl:tracking-[4px]">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
-          <p className="tracking-widest text-sm 2xl:text-[15.47pxpx] 2xl:leading-[25px] 2xl:tracking-[4px]">01234567890!@#$%^&*()</p>
+          <p className="tracking-widest text-sm md:text-xs 2xl:text-[15.47pxpx] 2xl:leading-[25px] 2xl:tracking-[4px]">abcdefghijklmnopqrstuvwxyz</p>
+          <p className="tracking-widest text-sm md:text-xs 2xl:text-[15.47pxpx] 2xl:leading-[25px] 2xl:tracking-[4px]">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+          <p className="tracking-widest text-sm md:text-xs 2xl:text-[15.47pxpx] 2xl:leading-[25px] 2xl:tracking-[4px]">01234567890!@#$%^&*()</p>
         </div>
       </div>
       </div>

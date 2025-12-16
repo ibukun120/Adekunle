@@ -33,13 +33,13 @@ const HomePage = () => {
       </div>
 
       {/* image div */}
-      <div className="w-full md:w-1/2 flex items-center justify-center mt-24 md:mt-0 ">
+      <div className="w-full md:w-1/2 flex items-center justify-center mt-18 md:mt-0 ">
         <Image
           src="/images/Group886.png"
           alt="Group886.png"
           width={390}
           height={442}
-          className=" md:h-auto min-w-[373px} 2xl:w-3/4"
+          className=" md:h-auto 2xl:w-3/4"
         />
       </div>
     </div>

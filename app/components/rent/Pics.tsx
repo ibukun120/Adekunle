@@ -53,7 +53,7 @@ const Pics = () => {
               alt="image"
               width={400}
               height={300}
-              className="object-contain md:h-[241.7px] pl:10 md:pl-16"
+              className="object-contain md:h-[241.7px] pl:10 md:pl-24"
             />
           </div>
         </div>
