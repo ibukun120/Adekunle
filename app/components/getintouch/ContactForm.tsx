@@ -16,20 +16,32 @@ export default function ContactForm() {
     reset
   } = useForm<FormValues>();
 
-  const onSubmit: SubmitHandler<FormValues> = (data) => {
-    // Replace this with your actual email address
-    const yourEmail = "adekunleadebona@gmail.com";
+  const onSubmit = async (data: FormValues) => {
+    // if (!response.ok) {
+    //   throw new Error("Failed to submit");
+    // }
 
-    const subject = encodeURIComponent(`New message from ${data.name}`);
-    const body = encodeURIComponent(
-      `Name: ${data.name}\nEmail: ${data.email}\n\nMessage:\n${data.message}`
-    );
+    try {
+      await fetch("https://formspree.io/f/mkowbeqv", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+      console.log(data);
 
-    // Opens the user's default mail client (Gmail in browser if they're logged in)
-    window.location.href = `mailto:${yourEmail}?subject=${subject}&body=${body}`;
+      // if (!response.ok) {
+      //   const errorData = await response.json();
+      //   throw new Error(errorData?.error || "Failed to submit");
+      // }
 
-    // Optional: reset form after "sending"
-    reset();
+      reset();
+      alert("Message sent successfully!");
+    } catch (error) {
+      alert("Something went wrong. Please try again.");
+    }
   };
 
   return (
