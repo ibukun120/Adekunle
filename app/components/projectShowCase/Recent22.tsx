@@ -27,22 +27,23 @@ const Recent22 = () => {
     {
       title: "Safehold Escrow",
       id: 4,
-      link: "/images/show/safe2.png",
+      link: "/images/safe.png",
       classaddition: '',
       projectLink: "/safehold",
     },
     {
       title: "Wema Bank Website Redesign",
       id: 5,
-      link: "/images/peak1.png",
-      projectLink: "/peakwise",
-      classaddition: "bg-[#043C0A] w-full"
+      link: "/images/wema.png",
+      projectLink: "/wema",
+      classaddition: "bg-[#9A0D3E] w-full"
     },
     {
       title: "Menutio Landing Page Redesign",
       id: 6,
-      link: "/images/background15.png",
-      projectLink: "/lookali",
+      link: "/images/menutio.png",
+      projectLink: "/Menutio",
+      classaddition: "bg-[#FB8500] w-full",
     },
   ];
   return (
