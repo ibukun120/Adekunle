@@ -20,7 +20,7 @@ const LogoVariant = () => {
 
       {/* image div */}
       <div>
-        <Image src="/images/farm/farm1.png" alt="Farm1" width={800} height={400} className='w-full h-full my-6 pt-8'/>
+        <Image src="/images/farm/farm1.png" alt="Farm1" width={800} height={400} className='w-full h-full my-5 pt-8'/>
       </div>
       <div>
         <Image src="/images/farm/farm2.png" alt="Farm2" width={800} height={400} className='w-full h-full'/>
