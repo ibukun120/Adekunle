@@ -41,7 +41,7 @@ const Recent22 = () => {
     {
       title: "Menutio Landing Page Redesign",
       id: 6,
-      link: "/images/menutio.png",
+      link: "/images/Menutio.png",
       projectLink: "/Menutio",
       classaddition: "bg-[#FB8500] w-full",
     },
