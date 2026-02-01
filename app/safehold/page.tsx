@@ -10,6 +10,7 @@ import MobileApp from "../components/safehold/MobileApp";
 import WebApp from "../components/safehold/WebApp";
 import Role from "../components/safehold/Role";
 import Home from "../components/safehold/Home";
+import ProjectNav from "../components/safehold/ProjectNav";
 
 const page = () => {
   return (
@@ -24,6 +25,7 @@ const page = () => {
       <StyleGuide/>
       <MobileApp/>
       <WebApp/>
+      <ProjectNav/>
     </div>
   );
 };

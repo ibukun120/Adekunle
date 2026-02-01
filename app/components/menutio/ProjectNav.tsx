@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const ProjectNav: React.FC = () => {
   return (
-    <div className="w-full flex justify-between items-center py-6 px-6 md:px-24 bg-white text-black">
+    <div className="w-full flex justify-between items-center py-6 md:py-16 px-6 md:px-24 bg-white text-black">
       {/* Left side */}
       <Link href='/paylinq' className="flex items-center  gap-2 cursor-pointer hover:opacity-70 transition">
         <ArrowLeft size={24} className="border p-1 border-black rounded-full" />

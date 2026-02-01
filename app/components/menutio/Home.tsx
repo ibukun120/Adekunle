@@ -4,7 +4,7 @@ import Home2 from "./Home2";
 
 const Home = () => {
   return (
-    <div className="bg-white py-16 md:py-24 md:mt-18">
+    <div className="bg-white pt-16 md:pt-24 md:mt-18">
       {/* Header Section */}
       <section className="bg-[#FB8500] py-18">
         <h1 className="text-center text-white text-3xl md:text-4xl font-bold">

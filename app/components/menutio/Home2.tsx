@@ -5,12 +5,12 @@ export default function Home2() {
     <main className="bg-white mt-16">
       {/* Key Highlights Section */}
       <section className="">
-        <h2 className="text-[#FB8500] font-semibold text-lg mb-6">
+        <h2 className="text-[#FB8500] font-semibold text-lg mb-6 md:mb-10">
           Key Highlights of the Redesign:
         </h2>
 
         {/* User-Centric Design */}
-        <div className="mb-6">
+        <div className="mb-6 md:mb-10">
           <h3 className="font-semibold text-gray-900 mb-1">
             User-Centric Design:
           </h3>
@@ -20,7 +20,7 @@ export default function Home2() {
         </div>
 
         {/* Visual Appeal */}
-        <div className="mb-6">
+        <div className="mb-6 md:mb-10">
           <h3 className="font-semibold text-gray-900 mb-1">Visual Appeal:</h3>
           <p className="text-gray-700 leading-relaxed">
             The revamped landing page of Menutio showcases a visually striking design that harmonizes with the brand's color palette. I integrated visually enticing graphics, premium-quality images, and contemporary typography to craft a captivating visual journey that deeply connects with their intended audience.

@@ -2,15 +2,15 @@ import Image from "next/image";
 
 export default function Home2() {
   return (
-    <main className="bg-white mt-16">
+    <main className="bg-white mt-16 md:mt-24">
       {/* Key Highlights Section */}
       <section className="">
-        <h2 className="text-[#8B1E3F] font-semibold text-lg mb-6">
+        <h2 className="text-[#8B1E3F] font-semibold text-lg md:text-xl lg:text-2xl mb-6 md:mb-10">
           Key Highlights of the Redesign:
         </h2>
 
         {/* User-Centric Design */}
-        <div className="mb-6">
+        <div className="mb-6 md:mb-10 ">
           <h3 className="font-semibold text-gray-900 mb-1">
             User-Centric Design:
           </h3>
@@ -23,7 +23,7 @@ export default function Home2() {
         </div>
 
         {/* Visual Appeal */}
-        <div className="mb-6">
+        <div className="mb-6 md:mb-10">
           <h3 className="font-semibold text-gray-900 mb-1">Visual Appeal:</h3>
           <p className="text-gray-700 leading-relaxed">
             The revamped landing page boasts a visually stunning design that
@@ -48,7 +48,7 @@ export default function Home2() {
         </div>
 
         {/* Closing Section */}
-        <h2 className="text-[#8B1E3F] font-semibold text-lg mb-2">
+        <h2 className="text-[#8B1E3F] font-semibold mb-2">
           The Redesigned Alat Website Landing Page.
         </h2>
         <p className="text-gray-700 leading-relaxed">
