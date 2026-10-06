@@ -25,7 +25,7 @@ export default function MovingText() {
               <Image src="/images/star.png" width={16} height={16} alt="star" />
 
               <span className="text-white text-lg">
-                <span className="font-semibold">7+ Years</span> Industry Experience
+                <span className="font-semibold">12+ Years</span> Industry Experience
               </span>
 
               <Image src="/images/star.png" width={16} height={16} alt="star" />

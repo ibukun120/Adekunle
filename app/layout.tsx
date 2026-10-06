@@ -33,7 +33,7 @@ const manrope = Manrope({
 // });
 export const metadata: Metadata = {
   title: "Adekunle Adebona",
-  description: "I craft user-focused designs that balance functionality and aesthetics, backed by over a decade of experience in graphic and product (UI/UX) design.",
+  description: "I craft user-focused designs that balance functionality and aesthetics, backed by over 7 years of experience in graphic and product (UI/UX) design.",
 };
 
 export default function RootLayout({

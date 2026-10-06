@@ -5,7 +5,7 @@ const LogoVariant = () => {
   return (
     <div className='bg-white text-black px-6 md:px-12 lg:px-24 xl:px-32 py-12'>
       <h1 className='text-[36px] font-bold text-[#0A7435] tracking-wider text-center'>Logo Variants</h1>
-      <p className='text-center mt-2 text-xl'>To ensure scalability and consistent recognition, the core Now Rent Easy logo was extended into a flexible system of variants suitable for diverse brand touchpoints.</p>
+      <p className='text-center mt-2 text-xl'>To ensure scalability and consistent recognition, the core FarmHive logo was extended into a flexible system of variants suitable for diverse brand touchpoints.</p>
 
       <div className='mt-12 mb-32'>
         <Image src="/images/farm/Frame.png" alt="Farm Frame" width={200} height={100} className='mx-auto w-3/4 md:w-1/2'/>

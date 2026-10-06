@@ -7,7 +7,7 @@ const WorkExperience = () => {
       role: "Senior Product Designer",
       company: "Sapphire Virtual Networks Limited",
       location: "Lagos, Nigeria",
-      duration: "Apr 2025 - Present",
+      duration: "Apr 2025 - Sept 2026",
     },
     {
       id: 2,

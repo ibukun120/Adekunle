@@ -49,11 +49,11 @@ const Curious = () => {
           </h1>
         </div>
 
-        <div className="flex items-center justify-center mt-8 md:mt-0">
+        {/* <div className="flex items-center justify-center mt-8 md:mt-0">
           <button className="w-[240px] px-[10px] 2xl:px-8 text-nowrap py-3 bg-[#0059FF] text-center rounded-md cursor-pointer hover:scale-105 transition-all duration-300 2xl:text-xl">
             Hire me on Contra
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );
