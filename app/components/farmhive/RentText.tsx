@@ -5,11 +5,11 @@ const RentText = () => {
     <div className="bg-white text-black px-6 md:px-12 lg:px-24 xl:px-32 py-12 flex flex-col gap-10">
       <div className="flex justify-between text-base 2xl:text-[22px]">
         <p>Industry: Agriculture / Food Delivery</p>
-        <p>Year:2023 (keep only if that's right for FarmHive)</p>
+        <p>Year:2023 </p>
       </div>
 
       <div className="">
-        <h1 className="text-[#0A7435] text-3xl 2xl:text-4xl font-semibold">My Role</h1>
+        <h1 className="text-[#0A7435] text-[36px] font-bold">My Role</h1>
         <ul className="list-disc ml-6 mt-4 text-base 2xl:text-[22px]">
           <li>
             Conducted brand discovery to understand FarmHive's vision, audience and market.
@@ -29,7 +29,7 @@ Designed the logo, typography system, colour palette and brand usage guidelines.
       </div>
 
       <div>
-        <h1 className="text-[#0A7435] text-3xl 2xl:text-4xl font-semibold mb-4">
+        <h1 className="text-[#0A7435] text-[36px] font-bold mb-4">
           Project Description
         </h1>
         <p className="text-base 2xl:text-[22px]">
@@ -44,7 +44,7 @@ Designed the logo, typography system, colour palette and brand usage guidelines.
       </div>
 
       <div>
-        <h1 className="text-[#0A7435] text-3xl 2xl:text-4xl font-semibold">
+        <h1 className="text-[#0A7435] text-[36px] font-bold">
           Problem & Goal
         </h1>
         <h2 className="font-bold mt-4 text-base 2xl:text-[22px]">Problem:</h2>
