@@ -5,13 +5,13 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <div className="w-full">
-      <div className="bg-linear-to-r from-[#020037] via-[#05009D] to-[#020037] py-16 flex items-center justify-center flex-col text-center gap-6">
+      <div className="bg-linear-to-r from-[#020037] via-[#05009D] to-[#020037] py-16 flex items-center justify-center flex-col text-center gap-6 ">
         <div>
-          <p className="hidden md:block text-3xl 2xl:text-5xl">Great ideas need great designs.</p>
-          <p className="hidden md:block text-3xl 2xl:text-5xl">Ready to create yours?</p>
-          <p className="block md:hidden text-3xl ">Great ideas need great </p>
-          <p className="block md:hidden text-3xl ">designs. Ready to</p>
-          <p className="block md:hidden text-3xl ">create yours?</p>
+          <p className="hidden md:block text-3xl 2xl:text-5xl text-white">Great ideas need great designs.</p>
+          <p className="hidden md:block text-3xl 2xl:text-5xl text-white">Ready to create yours?</p>
+          <p className="block md:hidden text-3xl text-white">Great ideas need great </p>
+          <p className="block md:hidden text-3xl text-white">designs. Ready to</p>
+          <p className="block md:hidden text-3xl text-white">create yours?</p>
         </div>
 
         <div>
